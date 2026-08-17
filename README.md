@@ -518,13 +518,6 @@
 
 ---
 
----
-
-## 📰 Recent Articles
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
 ## 🤝 Let's Build Something
 
 <p align="center">
