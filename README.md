@@ -1,15 +1,15 @@
 <div align="center">
 
 <h3><code>manoj@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" />
+<img src="./contrib-heatmap.svg?v=2" width="860" />
 
 <br><br>
 
 <h3><code>manoj@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="./manoj-ascii.svg" width="370" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" /></td>
+    <td valign="top"><img src="./manoj-ascii.svg?v=2" width="370" /></td>
+    <td valign="top"><img src="./info-card.svg?v=2" width="490" /></td>
   </tr>
 </table>
 
@@ -365,26 +365,26 @@
 
 <p align="center">
   <picture>
-    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=1" media="(prefers-color-scheme: dark)" />
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=1" alt="GitHub Stats" height="170" />
+    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=2" media="(prefers-color-scheme: dark)" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=2" alt="GitHub Stats" height="170" />
   </picture>
   <picture>
-    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=1" media="(prefers-color-scheme: dark)" />
-    <img src="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=1" alt="GitHub Streak" height="170" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source srcset="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=0D1117&color=FFFFFF&line=22D3EE&point=3B82F6&hide_border=true&border_radius=10&v=1" media="(prefers-color-scheme: dark)" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=0D1117&color=FFFFFF&line=22D3EE&point=3B82F6&hide_border=true&border_radius=10&v=1" alt="Activity Graph" width="100%" />
+    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2" media="(prefers-color-scheme: dark)" />
+    <img src="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2" alt="GitHub Streak" height="170" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=FFFFFF&border_radius=10&langs_count=8&custom_title=Top%20Languages&v=1" media="(prefers-color-scheme: dark)" />
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=0D1117&text_color=FFFFFF&border_radius=10&langs_count=8&custom_title=Top%20Languages&v=1" alt="Top Languages" height="170" />
+    <source srcset="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=0D1117&color=FFFFFF&line=22D3EE&point=3B82F6&hide_border=true&border_radius=10&v=2" media="(prefers-color-scheme: dark)" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=0D1117&color=FFFFFF&line=22D3EE&point=3B82F6&hide_border=true&border_radius=10&v=2" alt="Activity Graph" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=FFFFFF&border_radius=10&langs_count=8&custom_title=Top%20Languages&v=2" media="(prefers-color-scheme: dark)" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=0D1117&text_color=FFFFFF&border_radius=10&langs_count=8&custom_title=Top%20Languages&v=2" alt="Top Languages" height="170" />
   </picture>
 </p>
 
