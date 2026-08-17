@@ -58,9 +58,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/MatchMind">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=MatchMind&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=MatchMind&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=MatchMind&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="MatchMind Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=MatchMind&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=MatchMind&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=MatchMind&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="MatchMind Repository Card" />
 </picture>
 </a>
 </p>
@@ -82,9 +82,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/AegisAI">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=AegisAI&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=AegisAI&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=AegisAI&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="AegisAI Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=AegisAI&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=AegisAI&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=AegisAI&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="AegisAI Repository Card" />
 </picture>
 </a>
 </p>
@@ -107,9 +107,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/Union-Bank">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Union-Bank Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Union-Bank Repository Card" />
 </picture>
 </a>
 </p>
@@ -130,9 +130,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/Smart-Spam-Detector">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Smart-Spam-Detector&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Smart-Spam-Detector&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Smart-Spam-Detector&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Smart-Spam-Detector Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Smart-Spam-Detector&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Smart-Spam-Detector&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Smart-Spam-Detector&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Smart-Spam-Detector Repository Card" />
 </picture>
 </a>
 </p>
@@ -155,9 +155,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/SimAI-Telegram-Bot">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=SimAI-Telegram-Bot&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=SimAI-Telegram-Bot&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=SimAI-Telegram-Bot&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="SimAI-Telegram-Bot Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=SimAI-Telegram-Bot&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=SimAI-Telegram-Bot&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=SimAI-Telegram-Bot&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="SimAI-Telegram-Bot Repository Card" />
 </picture>
 </a>
 </p>
@@ -179,9 +179,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/Emotion-Lens">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Emotion-Lens&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Emotion-Lens&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Emotion-Lens&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Emotion-Lens Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Emotion-Lens&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Emotion-Lens&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Emotion-Lens&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Emotion-Lens Repository Card" />
 </picture>
 </a>
 </p>
@@ -212,9 +212,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/Veridoc">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Veridoc Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Veridoc Repository Card" />
 </picture>
 </a>
 </p>
@@ -236,9 +236,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/Statlas">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Statlas Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Statlas Repository Card" />
 </picture>
 </a>
 </p>
@@ -262,9 +262,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/Tamasha">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Tamasha Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Tamasha Repository Card" />
 </picture>
 </a>
 </p>
@@ -286,9 +286,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/FinSight">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="FinSight Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="FinSight Repository Card" />
 </picture>
 </a>
 </p>
@@ -312,9 +312,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/BookTale">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="BookTale Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="BookTale Repository Card" />
 </picture>
 </a>
 </p>
@@ -336,9 +336,9 @@
 <p align="center">
 <a href="https://github.com/themanoj-025/Next-Gen-Reco">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Next-Gen-Reco&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Next-Gen-Reco&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=themanoj-025&repo=Next-Gen-Reco&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Next-Gen-Reco Repository Card" />
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Next-Gen-Reco&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Next-Gen-Reco&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Next-Gen-Reco&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Next-Gen-Reco Repository Card" />
 </picture>
 </a>
 </p>
