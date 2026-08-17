@@ -1,0 +1,74 @@
+name: Profile Repo Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate repo state
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check .gitignore exists
+        run: |
+          if [ ! -f .gitignore ]; then
+            echo "❌ .gitignore is missing!"
+            exit 1
+          fi
+          echo "✅ .gitignore exists"
+
+      - name: Check for conflict markers
+        run: |
+          # NOTE: exclude .github/ so this workflow does not match its own grep pattern.
+          if grep -rn '<<<<<<<' --include='*.md' --include='*.html' --include='*.css' --include='*.js' --include='*.py' --include='*.yml' --include='*.yaml' --include='*.json' --exclude-dir='.git' --exclude-dir='.github' --exclude-dir='node_modules' .; then
+            echo "❌ Found unresolved conflict markers!"
+            exit 1
+          fi
+          echo "✅ No conflict markers found"
+
+      - name: Python syntax check
+        run: |
+          PY_FILES=$(find . -name '*.py' -not -path './.git/*' 2>/dev/null)
+          if [ -z "$PY_FILES" ]; then
+            echo "ℹ️ No Python files to check"
+          else
+            echo "$PY_FILES" | while read f; do
+              python -m py_compile "$f" && echo "  ✅ $f" || { echo "  ❌ $f failed"; exit 1; }
+            done
+            echo "✅ All Python files pass syntax check"
+          fi
+
+      - name: Check for hardcoded secrets patterns
+        run: |
+          # NOTE: built with double quotes so the embedded ' quotes stay literal
+          # (single-quoted string containing \' breaks bash -> unexpected EOF).
+          SECRET_PATTERNS="(api[_-]?key|secret|token|password|credential)[\"[:space:]:=]+[\"'][A-Za-z0-9_-]{20,}[\"']"
+          if grep -rn -i -E "$SECRET_PATTERNS" --include='*.py' --include='*.html' --include='*.js' --include='*.md' --include='*.yml' --include='*.yaml' --include='*.json' . 2>/dev/null | grep -v '.git/' | grep -v 'node_modules/'; then
+            echo "⚠️  Possible hardcoded secret found — review flagged lines"
+          else
+            echo "✅ No obvious secrets detected"
+          fi
+
+      - name: Validate HTML file
+        run: |
+          if command -v tidy &>/dev/null; then
+            for f in $(find . -name '*.html' -not -path './.git/*' 2>/dev/null); do
+              tidy -q -e "$f" 2>/dev/null && echo "  ✅ $f" || echo "  ⚠️  $f has warnings (non-blocking)"
+            done
+          else
+            echo "ℹ️ HTML tidy not installed — skipping HTML validation"
+          fi
+
+      - name: Check for oversized files
+        run: |
+          find . -not -path './.git/*' -not -path './node_modules/*' -size +5M -exec echo "⚠️  Large file: {} ($(du -h {} | cut -f1))" \;
+          echo "✅ File size check complete"

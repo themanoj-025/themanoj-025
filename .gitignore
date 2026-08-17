@@ -1,0 +1,51 @@
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.sublime-*
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+*.egg
+*.whl
+.eggs/
+pip-wheel-metadata/
+.Python
+.mypy_cache/
+.ruff_cache/
+
+# === Build / Dist artifacts (not committed except tracked SVGs) ===
+node_modules/
+
+# === Environment / Secrets ===
+.env
+.env.local
+.env.*.local
+*.secrets.toml
+
+# === Temporary capture frames ===
+assets/frames/
+banner_frames_*/
+
+.gemini/
+.cursorrules
+
+CLAUDE.md
+
+# === OS junk ===
+*.log
+*.tmp
