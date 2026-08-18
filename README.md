@@ -458,6 +458,16 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=themanoj-025&theme=onedark&no-frame=true&no-bg=true&margin-w=15" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=themanoj-025&theme=flat&no-frame=true&no-bg=true&margin-w=15" />
+      <img src="https://github-profile-trophy.vercel.app/?username=themanoj-025&theme=onedark&no-frame=true&no-bg=true&margin-w=15" alt="themanoj-025's Trophies" />
+    </picture>
+  </a>
+</p>
+
+<p align="center">
   <picture>
     <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=FFFFFF&border_radius=10&langs_count=8&custom_title=Top%20Languages&v=2" media="(prefers-color-scheme: dark)" />
     <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=FFFFFF&title_color=0A66C2&text_color=333333&border_radius=10&langs_count=8&custom_title=Top%20Languages&v=2" media="(prefers-color-scheme: light)" />
