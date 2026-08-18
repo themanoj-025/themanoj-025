@@ -480,7 +480,7 @@
   <img src="https://img.shields.io/github/followers/themanoj-025?label=Followers&style=flat-square&logo=github&logoColor=white&color=6366F1&labelColor=0D1117" alt="Followers Count" />
   <img src="https://img.shields.io/github/stars/themanoj-025?label=Stars&style=flat-square&logo=github&logoColor=white&color=6366F1&labelColor=0D1117" alt="Total GitHub Stars" />
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fthemanoj-025&query=public_repos&label=Repos&style=flat-square&logo=github&logoColor=white&labelColor=0D1117&color=A855F7" alt="Total Public Repositories" />
-  <img src="https://img.shields.io/badge/Commits-25k%2B-22D3EE?style=flat-square&logo=git&logoColor=white&labelColor=0D1117&color=0D1117" alt="Total Commits Across All Repos" />
+  <img src="https://img.shields.io/badge/Commits-3.6k%2B-22D3EE?style=flat-square&logo=git&logoColor=white&labelColor=0D1117&color=0D1117" alt="Total Commits Across All Repos" />
 </p>
 
 <p align="center">
