@@ -471,6 +471,25 @@
 
 ---
 
+## 🏅 GitHub Achievements
+
+<p align="center">
+  <a href="https://github.com/themanoj-025?tab=achievements">
+    <img src="https://img.shields.io/badge/YOLO-Unlocked-28A745?style=for-the-badge&logo=github&logoColor=white" alt="YOLO Achievement" />
+  </a>
+  <a href="https://github.com/themanoj-025?tab=achievements">
+    <img src="https://img.shields.io/badge/Pull_Shark-Unlocked-0366D6?style=for-the-badge&logo=github&logoColor=white" alt="Pull Shark Achievement" />
+  </a>
+  <a href="https://github.com/themanoj-025?tab=achievements">
+    <img src="https://img.shields.io/badge/Quickdraw-Unlocked-6F42C1?style=for-the-badge&logo=github&logoColor=white" alt="Quickdraw Achievement" />
+  </a>
+  <a href="https://github.com/themanoj-025?tab=achievements">
+    <img src="https://img.shields.io/badge/Pair_Extraordinaire-Unlocked-D73A49?style=for-the-badge&logo=github&logoColor=white" alt="Pair Extraordinaire Achievement" />
+  </a>
+</p>
+
+---
+
 ## 🤝 Let's Build Something
 
 <p align="center">
