@@ -140,7 +140,140 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚀 <a href="https://github.com/themanoj-025/SimAI-Telegram-Bot">AI Daily Telegram Bot</a></h3>
+      <h3>💰 <a href="https://github.com/themanoj-025/FinSight">FinSight Agent</a></h3>
+      <p><em>Agentic personal-finance system: synthetic ledger → hybrid risk scoring → LLM advisor.</em></p>
+      <ul>
+        <li><b>Hybrid Risk Engine:</b> Audit rules + LightGBM + isolation forest blended into explainable per-transaction scores (CV PR-AUC 0.828).</li>
+        <li><b>Honest Benchmarking:</b> 6 models compared with 5-fold time-series CV, per-archetype recall, cohort fairness, and calibration — all committed as metadata.</li>
+        <li><b>Production-Grade:</b> 284 tests, versioned FastAPI facts API, weekly auto-retrain via CI PR, Docker Compose, branded PDF reports, and an offline narrator (zero credentials to demo).</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square"/>
+        <img src="https://img.shields.io/badge/tests-284_passing-brightgreen?style=flat-square"/>
+      </p>
+    
+<p align="center">
+<a href="https://github.com/themanoj-025/FinSight">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="FinSight Repository Card" />
+</picture>
+</a>
+</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚽ <a href="https://github.com/themanoj-025/Statlas">Statlas</a></h3>
+      <p><em>Football analytics that shows its work — percentile radars, trend charts, shot maps, ML archetypes.</em></p>
+      <ul>
+        <li><b>Data-Integrity Backbone:</b> Immutable snapshot pipeline, anomaly gates, and a machine-readable coverage matrix — no fabricated stats, no black boxes.</li>
+        <li><b>ML Player Archetypes:</b> Unsupervised k-means clustering discovers player types with typicality scores, model cards, bias audits, and drift detection.</li>
+        <li><b>Full-Stack Production:</b> 370 tests, Next.js 16 + FastAPI + PostgreSQL, shareable permalinks with OG images, embeddable widgets, Docker Compose.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/tests-370_passing-brightgreen?style=flat-square"/>
+      </p>
+    
+<p align="center">
+<a href="https://github.com/themanoj-025/Statlas">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Statlas Repository Card" />
+</picture>
+</a>
+</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🚀 More Flagship Projects
+
+<table border="0" cellpadding="10" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📄 <a href="https://github.com/themanoj-025/Veridoc">Veridoc</a></h3>
+      <p><em>Local-first RAG document Q&A — answers cited to the exact source passage, zero cloud required.</em></p>
+      <ul>
+        <li><b>Hybrid retrieval:</b> BM25 + dense vectors + Reciprocal Rank Fusion + cross-encoder reranking.</li>
+        <li><b>Security-hardened:</b> 8/8 red-team pass, JWT rotation, prompt-injection defense.</li>
+        <li><b>100% local:</b> FastAPI + Next.js + ChromaDB + Ollama — no API keys.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ChromaDB-8A2BE2?style=flat-square"/>
+      </p>
+    
+<p align="center">
+<a href="https://github.com/themanoj-025/Veridoc">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Veridoc Repository Card" />
+</picture>
+</a>
+</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎬 <a href="https://github.com/themanoj-025/Tamasha">Tamasha</a></h3>
+      <p><em>Bollywood box-office intelligence — rating & BO prediction with star-chemistry networks.</em></p>
+      <ul>
+        <li><b>Bankability engine:</b> 1,010 actors & directors scored via time-decay network analysis.</li>
+        <li><b>Insight-driven:</b> festival timing, genre-conditional tone analysis, poster CV (null result reported honestly).</li>
+        <li><b>Quality:</b> 141 tests, SHAP explainability, Streamlit + FastAPI.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+        <img src="https://img.shields.io/badge/XGBoost-0066CC?style=flat-square"/>
+      </p>
+    
+<p align="center">
+<a href="https://github.com/themanoj-025/Tamasha">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Tamasha Repository Card" />
+</picture>
+</a>
+</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📚 <a href="https://github.com/themanoj-025/BookTale">Book-Tale</a></h3>
+      <p><em>Full-featured library management — catalog, lending, community, and an AI reading companion.</em></p>
+      <ul>
+        <li><b>Concurrency-safe:</b> transactional issue/return flows proven under 20 racing threads.</li>
+        <li><b>Security posture:</b> admin audit trail, CSRF + rate limiting, magic-byte upload validation.</li>
+        <li><b>Quality:</b> 202 passing tests, Flask + SQLAlchemy + Socket.IO + esbuild.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask"/>
+        <img src="https://img.shields.io/badge/SQLAlchemy-d71f00?style=flat-square&logo=sqlalchemy&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square"/>
+      </p>
+    
+<p align="center">
+<a href="https://github.com/themanoj-025/BookTale">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="BookTale Repository Card" />
+</picture>
+</a>
+</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/themanoj-025/SimAI-Telegram-Bot">AI Daily Telegram Bot</a></h3>
       <p><em>Advanced Telegram bot delivering curated AI news, research papers, and summaries.</em></p>
       <ul>
         <li><b>Reliability-First:</b> Automatically falls back to cached content if live scrapers/sources fail.</li>
@@ -187,138 +320,7 @@
 </p>
     </td>
   </tr>
-</table>
-
----
-
-## 🚀 More Flagship Projects
-
-<table border="0" cellpadding="10" width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <h3>📄 <a href="https://github.com/themanoj-025/Veridoc">Veridoc</a></h3>
-      <p><em>Local-first RAG document Q&A — answers cited to the exact source passage, zero cloud required.</em></p>
-      <ul>
-        <li><b>Hybrid retrieval:</b> BM25 + dense vectors + Reciprocal Rank Fusion + cross-encoder reranking.</li>
-        <li><b>Security-hardened:</b> 8/8 red-team pass, JWT rotation, prompt-injection defense.</li>
-        <li><b>100% local:</b> FastAPI + Next.js + ChromaDB + Ollama — no API keys.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/ChromaDB-8A2BE2?style=flat-square"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/Veridoc">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Veridoc&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Veridoc Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚽ <a href="https://github.com/themanoj-025/Statlas">Statlas</a></h3>
-      <p><em>Football analytics that shows its work — percentile radars, trend charts, shot maps.</em></p>
-      <ul>
-        <li><b>Data-integrity backbone:</b> dated snapshots, anomaly gates, a machine-readable coverage matrix.</li>
-        <li><b>Shareable:</b> stable permalinks, dynamic OG images, embeddable widgets.</li>
-        <li><b>Stack:</b> Next.js 16 + FastAPI + PostgreSQL, Docker Compose production stack.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/Statlas">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Statlas Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎬 <a href="https://github.com/themanoj-025/Tamasha">Tamasha</a></h3>
-      <p><em>Bollywood box-office intelligence — rating & BO prediction with star-chemistry networks.</em></p>
-      <ul>
-        <li><b>Bankability engine:</b> 1,010 actors & directors scored via time-decay network analysis.</li>
-        <li><b>Insight-driven:</b> festival timing, genre-conditional tone analysis, poster CV (null result reported honestly).</li>
-        <li><b>Quality:</b> 141 tests, SHAP explainability, Streamlit + FastAPI.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-        <img src="https://img.shields.io/badge/XGBoost-0066CC?style=flat-square"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/Tamasha">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Tamasha&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Tamasha Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💰 <a href="https://github.com/themanoj-025/FinSight">FinSight Agent</a></h3>
-      <p><em>Agentic personal finance — synthetic ledger, fraud detection, plain-English LLM advisor.</em></p>
-      <ul>
-        <li><b>Hybrid risk engine:</b> audit rules + LightGBM + isolation forest blended into explainable scores.</li>
-        <li><b>Honest evaluation:</b> PR-AUC-first, 5-fold time-series CV, per-archetype recall.</li>
-        <li><b>Offline by default:</b> deterministic narrator — zero credentials to demo.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/LightGBM-02569B?style=flat-square"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/FinSight">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="FinSight Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📚 <a href="https://github.com/themanoj-025/BookTale">Book-Tale</a></h3>
-      <p><em>Full-featured library management — catalog, lending, community, and an AI reading companion.</em></p>
-      <ul>
-        <li><b>Concurrency-safe:</b> transactional issue/return flows proven under 20 racing threads.</li>
-        <li><b>Security posture:</b> admin audit trail, CSRF + rate limiting, magic-byte upload validation.</li>
-        <li><b>Quality:</b> 202 passing tests, Flask + SQLAlchemy + Socket.IO + esbuild.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask"/>
-        <img src="https://img.shields.io/badge/SQLAlchemy-d71f00?style=flat-square&logo=sqlalchemy&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/BookTale">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=BookTale&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="BookTale Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
     <td width="50%" valign="top">
       <h3>🎬 <a href="https://github.com/themanoj-025/Next-Gen-Reco">NextGenReco</a></h3>
       <p><em>AI movie recommendations & rating predictions trained on the MovieLens 32M dataset.</em></p>
