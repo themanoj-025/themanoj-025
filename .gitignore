@@ -30,6 +30,7 @@ pip-wheel-metadata/
 
 # === Build / Dist artifacts (not committed except tracked SVGs) ===
 node_modules/
+.pytest_cache/
 
 # === Environment / Secrets ===
 .env
