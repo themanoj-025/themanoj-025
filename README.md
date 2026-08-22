@@ -452,17 +452,17 @@
 
 <p align="center">
   <picture>
-    <source srcset="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=0D1117&color=FFFFFF&line=22D3EE&point=3B82F6&hide_border=true&border_radius=10&v=2" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=FFFFFF&color=333333&line=0A66C2&point=0A66C2&hide_border=true&border_radius=10&v=2" media="(prefers-color-scheme: light)" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=0D1117&color=FFFFFF&line=22D3EE&point=3B82F6&hide_border=true&border_radius=10&v=2" alt="Activity Graph" width="100%" />
+    <source srcset="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=0D1117&color=FFFFFF&line=22D3EE&point=3B82F6&hide_border=true&border_radius=10&v=2&cache_seconds=21600" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=FFFFFF&color=333333&line=0A66C2&point=0A66C2&hide_border=true&border_radius=10&v=2&cache_seconds=21600" media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=themanoj-025&bg_color=0D1117&color=FFFFFF&line=22D3EE&point=3B82F6&hide_border=true&border_radius=10&v=2&cache_seconds=21600" alt="Activity Graph" width="100%" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=FFFFFF&border_radius=10&langs_count=8&custom_title=Top%20Languages&v=2" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=FFFFFF&title_color=0A66C2&text_color=333333&border_radius=10&langs_count=8&custom_title=Top%20Languages&v=2" media="(prefers-color-scheme: light)" />
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=0D1117&text_color=FFFFFF&border_radius=10&langs_count=8&custom_title=Top%20Languages&v=2" alt="Top Languages" height="170" />
+    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=FFFFFF&border_radius=10&langs_count=8&custom_title=My%20Programming%20Languages&v=2&cache_seconds=21600" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=FFFFFF&title_color=0A66C2&text_color=333333&border_radius=10&langs_count=8&custom_title=My%20Programming%20Languages&v=2&cache_seconds=21600" media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=themanoj-025&layout=compact&hide_border=true&bg_color=0D1117&text_color=FFFFFF&border_radius=10&langs_count=8&custom_title=My%20Programming%20Languages&v=2&cache_seconds=21600" alt="Top Languages" height="170" />
   </picture>
 </p>
 
