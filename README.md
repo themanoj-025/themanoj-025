@@ -444,9 +444,9 @@
     <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=2&cache_seconds=21600" alt="GitHub Stats" height="170" />
   </picture>
   <picture>
-    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2&cache_seconds=21600" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=FFFFFF&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2&sideLabels=333333&sideNums=333333&dates=333333&currStreakNum=333333&border_radius=10&stroke=FFFFFF&v=2&cache_seconds=21600" media="(prefers-color-scheme: light)" />
-    <img src="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2&cache_seconds=21600" alt="GitHub Streak" height="170" />
+    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=FFFFFF&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2&sideLabels=333333&sideNums=333333&dates=333333&currStreakNum=333333&border_radius=10&stroke=FFFFFF&v=2" media="(prefers-color-scheme: light)" />
+    <img src="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2" alt="GitHub Streak" height="170" />
   </picture>
 </p>
 
