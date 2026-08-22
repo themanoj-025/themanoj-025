@@ -434,20 +434,19 @@
 <p align="center">
   <img src="https://img.shields.io/github/followers/themanoj-025?label=Followers&style=flat-square&logo=github&logoColor=white&color=6366F1&labelColor=0D1117" alt="Followers Count" />
   <img src="https://img.shields.io/github/stars/themanoj-025?label=Stars&style=flat-square&logo=github&logoColor=white&color=6366F1&labelColor=0D1117" alt="Total GitHub Stars" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fthemanoj-025&query=public_repos&label=Repos&style=flat-square&logo=github&logoColor=white&labelColor=0D1117&color=A855F7" alt="Total Public Repositories" />
   <img src="https://img.shields.io/badge/Commits-3.6k%2B-22D3EE?style=flat-square&logo=git&logoColor=white&labelColor=0D1117&color=0D1117" alt="Total Commits Across All Repos" />
 </p>
 
 <p align="center">
   <picture>
-    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=2" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=FFFFFF&title_color=0A66C2&icon_color=0A66C2&text_color=333333&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=2" media="(prefers-color-scheme: light)" />
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=2" alt="GitHub Stats" height="170" />
+    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=2&cache_seconds=21600" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=FFFFFF&title_color=0A66C2&icon_color=0A66C2&text_color=333333&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=2&cache_seconds=21600" media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=themanoj-025&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&border_radius=10&rank_icon=github&custom_title=Manoj's%20GitHub%20Stats&v=2&cache_seconds=21600" alt="GitHub Stats" height="170" />
   </picture>
   <picture>
-    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=FFFFFF&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2&sideLabels=333333&sideNums=333333&dates=333333&currStreakNum=333333&border_radius=10&stroke=FFFFFF&v=2" media="(prefers-color-scheme: light)" />
-    <img src="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2" alt="GitHub Streak" height="170" />
+    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2&cache_seconds=21600" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=FFFFFF&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2&sideLabels=333333&sideNums=333333&dates=333333&currStreakNum=333333&border_radius=10&stroke=FFFFFF&v=2&cache_seconds=21600" media="(prefers-color-scheme: light)" />
+    <img src="https://streak-stats.demolab.com/?user=themanoj-025&hide_border=true&background=0D1117&ring=22D3EE&fire=3B82F6&currStreakLabel=22D3EE&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&border_radius=10&stroke=0D1117&v=2&cache_seconds=21600" alt="GitHub Streak" height="170" />
   </picture>
 </p>
 
