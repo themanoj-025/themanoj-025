@@ -295,6 +295,8 @@
 </a>
 </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🎭 <a href="https://github.com/themanoj-025/Emotion-Lens">EmotionLens</a></h3>
       <p><em>Production-grade real-time facial emotion intelligence dashboard powered by a custom CNN.</em></p>
@@ -319,8 +321,6 @@
 </a>
 </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🎬 <a href="https://github.com/themanoj-025/Next-Gen-Reco">NextGenReco</a></h3>
       <p><em>AI movie recommendations & rating predictions trained on the MovieLens 32M dataset.</em></p>
