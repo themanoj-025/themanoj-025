@@ -33,8 +33,8 @@ def rise(inner, i):
 
 
 parts = [
-    f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-    f"font-family=\"ui-monospace, SFMono-Regular, 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace\">",
+    (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
+    f"font-family=\"ui-monospace, SFMono-Regular, 'Fira Code', 'JetBrains Mono', Menlo, Consolas, monospace\">"),
     "<defs>",
     '  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">',
     '    <feGaussianBlur stdDeviation="2" result="blur"/>',
