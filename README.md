@@ -66,6 +66,31 @@
 </p>
     </td>
     <td width="50%" valign="top">
+      <h3>🏦 <a href="https://github.com/themanoj-025/Union-Bank">Union Bank API</a></h3>
+      <p><em>Concurrent-safe banking API with atomic transactions, defense-in-depth security, and high test coverage.</em></p>
+      <ul>
+        <li><b>Atomic Transactions:</b> Proved no partial write survives via fault-injection testing.</li>
+        <li><b>Defense in Depth:</b> Secured via RS256 JWT, TOTP 2FA, httpOnly cookies.</li>
+        <li><b>Scalable Architecture:</b> Containerized with Docker and structured for high-concurrency environments.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> 
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+      </p>
+    
+<p align="center">
+<a href="https://github.com/themanoj-025/Union-Bank">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Union-Bank Repository Card" />
+</picture>
+</a>
+</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>🛡️ <a href="https://github.com/themanoj-025/AegisAI">AegisAI</a></h3>
       <p><em>Automated security-focused code review for GitHub pull requests using LLM agents.</em></p>
       <ul>
@@ -89,56 +114,6 @@
 </a>
 </p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏦 <a href="https://github.com/themanoj-025/Union-Bank">Union Bank API</a></h3>
-      <p><em>Concurrent-safe banking API with atomic transactions, defense-in-depth security, and high test coverage.</em></p>
-      <ul>
-        <li><b>Atomic Transactions:</b> Proved no partial write survives via fault-injection testing.</li>
-        <li><b>Defense in Depth:</b> Secured via RS256 JWT, TOTP 2FA, httpOnly cookies.</li>
-        <li><b>Scalable Architecture:</b> Containerized with Docker and structured for high-concurrency environments.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> 
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/Union-Bank">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Union-Bank&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Union-Bank Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📧 <a href="https://github.com/themanoj-025/Smart-Spam-Detector">Smart Spam Detector</a></h3>
-      <p><em>Production-grade machine learning system for classifying emails with high precision.</em></p>
-      <ul>
-        <li><b>6 ML Models:</b> Evaluated multiple architectures, finalized on a Stacking ensemble achieving 98.7% accuracy.</li>
-        <li><b>Explainable AI:</b> Uses SHAP to provide word-level feature contributions.</li>
-        <li><b>Interactive UI:</b> Features a Streamlit dashboard for real-time inference and metric visualization.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> 
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/Smart-Spam-Detector">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Smart-Spam-Detector&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Smart-Spam-Detector&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Smart-Spam-Detector&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Smart-Spam-Detector Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>💰 <a href="https://github.com/themanoj-025/FinSight">FinSight Agent</a></h3>
       <p><em>Agentic personal-finance system: synthetic ledger → hybrid risk scoring → LLM advisor.</em></p>
@@ -160,31 +135,6 @@
 <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
 <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=FinSight&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="FinSight Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚽ <a href="https://github.com/themanoj-025/Statlas">Statlas</a></h3>
-      <p><em>Football analytics that shows its work — percentile radars, trend charts, shot maps, ML archetypes.</em></p>
-      <ul>
-        <li><b>Data-Integrity Backbone:</b> Immutable snapshot pipeline, anomaly gates, and a machine-readable coverage matrix — no fabricated stats, no black boxes.</li>
-        <li><b>ML Player Archetypes:</b> Unsupervised k-means clustering discovers player types with typicality scores, model cards, bias audits, and drift detection.</li>
-        <li><b>Full-Stack Production:</b> 370 tests, Next.js 16 + FastAPI + PostgreSQL, shareable permalinks with OG images, embeddable widgets, Docker Compose.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/tests-370_passing-brightgreen?style=flat-square"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/Statlas">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Statlas&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Statlas Repository Card" />
 </picture>
 </a>
 </p>
@@ -273,79 +223,10 @@
 </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/themanoj-025/SimAI-Telegram-Bot">AI Daily Telegram Bot</a></h3>
-      <p><em>Advanced Telegram bot delivering curated AI news, research papers, and summaries.</em></p>
-      <ul>
-        <li><b>Reliability-First:</b> Automatically falls back to cached content if live scrapers/sources fail.</li>
-        <li><b>LLM Integration:</b> Uses Gemini API for generating concise daily briefings.</li>
-        <li><b>Automated Pipeline:</b> Scheduled via GitHub Actions for zero-maintenance daily execution.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlebard&logoColor=white"/> 
-        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/SimAI-Telegram-Bot">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=SimAI-Telegram-Bot&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=SimAI-Telegram-Bot&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=SimAI-Telegram-Bot&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="SimAI-Telegram-Bot Repository Card" />
-</picture>
-</a>
-</p>
+      <!-- Unpinned: AI-Telegram-News-Bot -->
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎭 <a href="https://github.com/themanoj-025/Emotion-Lens">EmotionLens</a></h3>
-      <p><em>Production-grade real-time facial emotion intelligence dashboard powered by a custom CNN.</em></p>
-      <ul>
-        <li><b>Real-Time Inference:</b> Live webcam integration for 7-emotion detection with temporal smoothing and Grad-CAM overlays.</li>
-        <li><b>Deep Learning Dashboard:</b> Multi-page Streamlit app with interactive model training, analytics, and REST API.</li>
-        <li><b>Edge-Ready:</b> Optimized lightweight CNN architecture (1.2M params) for fast CPU inference.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> 
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/Emotion-Lens">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Emotion-Lens&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Emotion-Lens&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Emotion-Lens&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Emotion-Lens Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎬 <a href="https://github.com/themanoj-025/Next-Gen-Reco">NextGenReco</a></h3>
-      <p><em>AI movie recommendations & rating predictions trained on the MovieLens 32M dataset.</em></p>
-      <ul>
-        <li><b>Hybrid engine:</b> genre + tag + year similarity blended with ML rating predictions.</li>
-        <li><b>Live demo:</b> deployable Streamlit Cloud app with analysis charts and movie-night generator.</li>
-        <li><b>Scale:</b> 87K movies, 32M ratings, 2M user tags.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
-        <img src="https://img.shields.io/badge/XGBoost-0066CC?style=flat-square"/>
-      </p>
-    
-<p align="center">
-<a href="https://github.com/themanoj-025/Next-Gen-Reco">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Next-Gen-Reco&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Next-Gen-Reco&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Next-Gen-Reco&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="Next-Gen-Reco Repository Card" />
-</picture>
-</a>
-</p>
-    </td>
-  </tr>
+
 </table>
 ---
 
