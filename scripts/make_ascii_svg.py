@@ -17,7 +17,10 @@ import html
 import os
 import sys
 
+import structlog
 from PIL import Image, ImageEnhance, ImageFilter
+
+logger = structlog.get_logger("make_ascii_svg")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # defaults to the prepped grayscale image (see prep_photo.py), which already has
@@ -165,4 +168,4 @@ parts.append("</svg>")
 svg = "".join(parts)
 with open(OUT, "w") as f:
     f.write(svg)
-print("wrote", OUT, len(svg), "bytes;", CANVAS_W, "x", CANVAS_H)
+logger.info("wrote", path=OUT, size=len(svg), width=CANVAS_W, height=CANVAS_H)

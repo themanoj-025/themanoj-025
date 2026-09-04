@@ -5,6 +5,9 @@ Background set to transparent (no background rect) so it merges 100% seamlessly 
 
 import html
 import os
+import structlog
+
+logger = structlog.get_logger("make_info_card")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
@@ -143,4 +146,4 @@ svg = "".join(parts)
 with open(OUT, "w", encoding="utf-8") as f:
     f.write(svg)
 
-print(f"Successfully generated {OUT} ({len(svg)} bytes; {W}x{H})")
+logger.info("generated", path=OUT, size=len(svg), width=W, height=H)
