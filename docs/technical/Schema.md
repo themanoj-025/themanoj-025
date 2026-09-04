@@ -119,7 +119,7 @@ Current slots (2026-08-06): Match-Mind, AegisAI, UNION-BANK-, Smart-Spam-Detecto
 
 ```markdown
 <!-- Featured project entry -->
-<h3>🧩 <a href="https://github.com/themanoj-025/Match-Mind">Match-Mind</a></h3>
+<h3>🧩 <a href="https://github.com/themanoj-025/MatchMind">Match-Mind</a></h3>
 <p><em>Real-time sports analytics platform with AI insights (Claude), WebSockets, and queue-backed jobs.</em></p>
 <!-- chips: React 19 / TypeScript / Redis-BullMQ / Claude API -->
 ```

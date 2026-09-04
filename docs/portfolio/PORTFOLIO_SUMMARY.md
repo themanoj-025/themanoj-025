@@ -134,7 +134,7 @@
 | **Purpose** | AI-powered Telegram news aggregator bot |
 | **Tech Stack** | Python, python-telegram-bot, OpenAI, Web Scraping |
 | **Key Features** | Multi-source news aggregation, AI summarization, Scheduled delivery |
-| **GitHub** | [themanoj-025/AI-Telegram-News-Bot](https://github.com/themanoj-025/AI-Telegram-News-Bot) |
+| **GitHub** | [themanoj-025/SimAI-Telegram-Bot](https://github.com/themanoj-025/SimAI-Telegram-Bot) |
 
 ### 3. Book-Tale
 | | |
@@ -142,7 +142,7 @@
 | **Purpose** | Full-featured library management system |
 | **Tech Stack** | Python, Flask, SQLAlchemy, PostgreSQL, Redis, Socket.IO |
 | **Key Features** | 132 routes, 202 tests, real-time notifications, social feed, recommendations |
-| **GitHub** | [themanoj-025/Book-Tale](https://github.com/themanoj-025/Book-Tale) |
+| **GitHub** | [themanoj-025/BookTale](https://github.com/themanoj-025/BookTale) |
 
 ### 4. Credit Card Fraud Detection
 | | |
@@ -150,7 +150,7 @@
 | **Purpose** | Production-grade fraud detection with explainability |
 | **Tech Stack** | Python, XGBoost, LightGBM, SHAP, FAISS, FastAPI, Streamlit |
 | **Key Features** | 6 ML models, SHAP explanations, LLM narration, RAG similar cases, model governance |
-| **GitHub** | [themanoj-025/Credit-Card-Fraud-Detection](https://github.com/themanoj-025/Credit-Card-Fraud-Detection) |
+| **GitHub** | [themanoj-025/Credit-Card-Fraud-Detection-System](https://github.com/themanoj-025/Credit-Card-Fraud-Detection-System) |
 
 ### 5. Dabba
 | | |
@@ -174,7 +174,7 @@
 | **Purpose** | Financial AI agent for market analysis |
 | **Tech Stack** | Python, Anthropic Claude, FastAPI, LangChain |
 | **Key Features** | Market data analysis, trading insights, portfolio management |
-| **GitHub** | [themanoj-025/FinSight-Agent](https://github.com/themanoj-025/FinSight-Agent) |
+| **GitHub** | [themanoj-025/FinSight](https://github.com/themanoj-025/FinSight) |
 
 ### 8. Institute-Management-System
 | | |
@@ -190,7 +190,7 @@
 | **Purpose** | Quiz/trivia platform |
 | **Tech Stack** | TypeScript, Node.js, Express.js, Next.js, MongoDB |
 | **Key Features** | Real-time quizzes, leaderboards, user authentication, categories |
-| **GitHub** | [themanoj-025/Match-Mind](https://github.com/themanoj-025/Match-Mind) |
+| **GitHub** | [themanoj-025/MatchMind](https://github.com/themanoj-025/MatchMind) |
 
 ### 10. Next-Gen-Reco
 | | |
@@ -246,7 +246,7 @@
 | **Purpose** | Banking application |
 | **Tech Stack** | TypeScript, React, Next.js, Node.js, Express.js, PostgreSQL, Solidity |
 | **Key Features** | Account management, transactions, DeFi integration, smart contracts |
-| **GitHub** | [themanoj-025/UNION-BANK-](https://github.com/themanoj-025/UNION-BANK-) |
+| **GitHub** | [themanoj-025/Union-Bank](https://github.com/themanoj-025/Union-Bank) |
 
 ### 17. Veridoc
 | | |
