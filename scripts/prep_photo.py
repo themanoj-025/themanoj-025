@@ -17,8 +17,11 @@ import sys
 
 import cv2
 import numpy as np
+import structlog
 from PIL import Image
 from rembg import remove
+
+logger = structlog.get_logger("prep_photo")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 INP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-photo.jpg")
@@ -46,4 +49,4 @@ out = gray.astype(np.float32) * mask + 255.0 * (1.0 - mask)
 out = np.clip(out, 0, 255).astype(np.uint8)
 
 Image.fromarray(out, mode="L").save(OUT)
-print("wrote", OUT, out.shape)
+logger.info("wrote", path=OUT, shape=str(out.shape))
