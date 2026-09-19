@@ -75,5 +75,5 @@ jobs:
 
       - name: Check for oversized files
         run: |
-          find . -not -path './.git/*' -not -path './node_modules/*' -size +5M -exec echo "⚠️  Large file: {} ($(du -h {} | cut -f1))" \;
+          find . -not -path './.git/*' -not -path './node_modules/*' -type f -size +5M -exec sh -c 'echo "  ⚠️  Large file: $1 ($(du -h "$1" | cut -f1))"' _ {} \;
           echo "✅ File size check complete"
