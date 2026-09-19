@@ -41,8 +41,13 @@ jobs:
           if [ -z "$PY_FILES" ]; then
             echo "ℹ️ No Python files to check"
           else
-            echo "$PY_FILES" | while read f; do
-              python -m py_compile "$f" && echo "  ✅ $f" || { echo "  ❌ $f failed"; exit 1; }
+            echo "$PY_FILES" | while read -r f; do
+              if python -m py_compile "$f"; then
+                echo "  ✅ $f"
+              else
+                echo "  ❌ $f failed"
+                exit 1
+              fi
             done
             echo "✅ All Python files pass syntax check"
           fi
@@ -61,9 +66,9 @@ jobs:
       - name: Validate HTML file
         run: |
           if command -v tidy &>/dev/null; then
-            for f in $(find . -name '*.html' -not -path './.git/*' 2>/dev/null); do
+            while IFS= read -r -d '' f; do
               tidy -q -e "$f" 2>/dev/null && echo "  ✅ $f" || echo "  ⚠️  $f has warnings (non-blocking)"
-            done
+            done < <(find . -name '*.html' -not -path './.git/*' -print0 2>/dev/null)
           else
             echo "ℹ️ HTML tidy not installed — skipping HTML validation"
           fi
