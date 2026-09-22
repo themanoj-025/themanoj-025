@@ -5,7 +5,7 @@ reference dependencies**. All are acyclic — no circular dependencies exist.
 
 ## 1. Pipeline Chain (data flow)
 
-```
+```text
 GitHub contribution data (web)
         │  scripts/fetch_contributions.py   [writes]
         ▼

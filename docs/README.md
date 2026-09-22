@@ -10,7 +10,7 @@ and modernization summaries covering all sibling projects.
 
 ## Structure
 
-```
+```text
 docs/
 ├── README.md                      ← this index
 ├── architecture.md                system architecture

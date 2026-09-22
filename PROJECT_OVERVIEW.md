@@ -64,7 +64,7 @@
 
 ## 3. Complete Folder Structure Tree
 
-```
+```text
 themanoj-025/
 ├── .github/
 │   └── workflows/

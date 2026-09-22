@@ -7,7 +7,7 @@ documentation suite. **No code, no logic, no entry points, no workflow paths cha
 
 ## Before (2026-08-10)
 
-```
+```text
 themanoj-025/
 ├── .github/workflows/{ci.yml, update-profile-art.yml}
 ├── AGENTS.md
@@ -38,7 +38,7 @@ themanoj-025/
 
 ## After (2026-08-11)
 
-```
+```text
 themanoj-025/
 ├── .github/workflows/{ci.yml, update-profile-art.yml}
 ├── AGENTS.md

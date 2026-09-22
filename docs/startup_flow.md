@@ -9,7 +9,7 @@ Because this is a **static profile repository**, there are two "startups":
 
 ## 1. Render Flow (on every profile view — instant, stateless)
 
-```
+```text
 1. GitHub resolves themanoj-025/themanoj-025@main
 2. GitHub renders README.md (markdown → HTML)
 3. Embedded assets are served from the repo itself:
