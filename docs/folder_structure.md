@@ -2,7 +2,7 @@
 
 Annotated tree of the **current (post-restructure)** layout, one-line purpose per entry.
 
-```
+```text
 themanoj-025/
 ├── .github/
 │   └── workflows/
