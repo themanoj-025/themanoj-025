@@ -59,4 +59,5 @@ radar_balance.txt
 .coverage
 .coverage.*
 coverage.xml
+.act-secrets
 .secrets
