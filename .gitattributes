@@ -1,0 +1,51 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Python source
+*.py text diff=python
+
+# HTML templates
+*.html text diff=html
+
+# CSS stylesheets
+*.css text
+
+# JavaScript
+*.js text
+
+# Markdown documentation
+*.md text
+*.rst text
+
+# Config / data files
+*.yml text
+*.yaml text
+*.toml text
+*.json text
+*.cfg text
+*.ini text
+*.env text
+
+# Shell / batch scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Docker
+Dockerfile text
+Dockerfile.* text
+
+# Requirements
+requirements.txt text
+
+# License / changelog
+LICENSE text
+CHANGELOG.md text
+
+# Binary files - don't modify
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
