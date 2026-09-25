@@ -2,7 +2,7 @@
 * text=auto
 
 # Python source
-*.py text diff=python
+*.py text eol=lf diff=python
 
 # HTML templates
 *.html text diff=html
