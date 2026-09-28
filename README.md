@@ -223,7 +223,28 @@
 </p>
     </td>
     <td width="50%" valign="top">
-      <!-- Unpinned: AI-Telegram-News-Bot -->
+      <h3>💳 <a href="https://github.com/themanoj-025/Credit-Card-Fraud-Detection">FraudLens (CCFD)</a></h3>
+      <p><em>Real-time credit card fraud detection with explainable AI and hybrid vector search.</em></p>
+      <ul>
+        <li><b>Robust Pipeline:</b> XGBoost/LightGBM ensembles optimized via Optuna (451+ passing tests).</li>
+        <li><b>Explainable AI (XAI):</b> SHAP value integration to provide human-readable denial reasons.</li>
+        <li><b>Similar Case Retrieval:</b> FAISS vector search to find historically similar fraudulent transactions.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/XGBoost-0066CC?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FAISS-000000?style=flat-square"/>
+      </p>
+    
+<p align="center">
+<a href="https://github.com/themanoj-025/Credit-Card-Fraud-Detection">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Credit-Card-Fraud-Detection&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" />
+<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Credit-Card-Fraud-Detection&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=333333&bg_color=FFFFFF" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=themanoj-025&repo=Credit-Card-Fraud-Detection&theme=transparent&hide_border=true&title_color=22D3EE&icon_color=3B82F6&text_color=FFFFFF&bg_color=0D1117" alt="CCFD Repository Card" />
+</picture>
+</a>
+</p>
     </td>
   </tr>
 
@@ -241,11 +262,12 @@
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/Anthropic_Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
 <img src="https://img.shields.io/badge/XGBoost-0066CC?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/SHAP-059669?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FAISS-1E293B?style=for-the-badge"/>
 </p>
 
 ---
@@ -303,6 +325,7 @@
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQLAlchemy-d71f00?style=for-the-badge&logo=sqlalchemy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white"/>
 <img src="https://img.shields.io/badge/BullMQ-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900"/>
@@ -357,7 +380,7 @@
 ## 🤝 Let's Build Something
 
 <p align="center">
-  <em>If you're building production LLM infrastructure, autonomous agentic systems, or high-throughput retrieval pipelines — I'm open to collaborating on high-impact engineering problems.</em>
+  <em>If you're building production LLM infrastructure, autonomous agentic systems, high-throughput retrieval pipelines, or concurrent-safe financial systems — I'm open to collaborating on high-impact engineering problems.</em>
 </p>
 
 <p align="center">
@@ -372,5 +395,5 @@
 ---
 
 <p align="center">
-  <sub><b>AI Systems Engineer</b> • Production AI • LLM Infrastructure • Agentic Systems Architect</sub>
+  <sub><b>AI Systems Engineer</b> • Production ML/AI • Agentic Systems Architect • Full-Stack Developer</sub>
 </p>
