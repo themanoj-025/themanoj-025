@@ -16,6 +16,21 @@
 </div>
 
 <p align="center">
+  <a href="https://github.com/themanoj-025">
+    <img src="https://img.shields.io/badge/View_My_Work-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="View My Work on GitHub"/>
+  </a>
+  <a href="mailto:code.me.025@gmail.com">
+    <img src="https://img.shields.io/badge/Contact_Me-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Me via Email"/>
+  </a>
+  <a href="https://raw.githubusercontent.com/themanoj-025/themanoj-025/main/Resume.pdf">
+    <img src="https://img.shields.io/badge/Resume-16A34A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download My Resume"/>
+  </a>
+  <a href="mailto:code.me.025@gmail.com?subject=AI%20Engineering%20Opportunity">
+    <img src="https://img.shields.io/badge/Open_for_Roles-9333EA?style=for-the-badge&logo=statuspage&logoColor=white" alt="I am Open for Roles"/>
+  </a>
+  <img src="https://img.shields.io/badge/AI-Assisted_no-22C55E?style=for-the-badge&logo=shield&logoColor=white&label=AI%20usage" alt="AI usage: no"/>
+</p>
+
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=AI+Systems+Engineer;Production+LLM+%26+Agentic+Architect;GraphRAG+%26+Vector+Search+Specialist;Local+SLM+Fine-Tuning+%26+vLLM+Serving" alt="Animated text reading: AI Systems Engineer, Production LLM & Agentic Architect, GraphRAG & Vector Search Specialist, Local SLM Fine-Tuning & vLLM Serving" />
 </p>
 
