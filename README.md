@@ -89,14 +89,12 @@
 
 ## 🛠️ Tech Stack
 
-| Layer | Technologies |
-| --- | --- |
-| Language | Python 3.11+, Node.js 20+, TypeScript 6 |
-| LLM / Agent | Anthropic Claude, OpenAI, vLLM, Ollama |
-| Vector / Graph | FAISS, PGSQL + pgvector, NetworkX (optional) |
-| ML / Data | scikit-learn, pandas, XGBoost, LightGBM |
-| Real-time | Socket.IO, Redis (BullMQ + pub/sub) |
-| Infra | Docker, Docker Compose, GitHub Actions |
+**Language:** <kbd>Python 3.11+</kbd> <kbd>Node.js 20+</kbd> <kbd>TypeScript 6</kbd><br>
+**LLM / Agent:** <kbd>Anthropic Claude</kbd> <kbd>OpenAI</kbd> <kbd>vLLM</kbd> <kbd>Ollama</kbd><br>
+**Vector / Graph:** <kbd>FAISS</kbd> <kbd>PGSQL + pgvector</kbd> <kbd>NetworkX (optional)</kbd><br>
+**ML / Data:** <kbd>scikit-learn</kbd> <kbd>pandas</kbd> <kbd>XGBoost</kbd> <kbd>LightGBM</kbd><br>
+**Real-time:** <kbd>Socket.IO</kbd> <kbd>Redis (BullMQ + pub/sub)</kbd><br>
+**Infra:** <kbd>Docker</kbd> <kbd>Docker Compose</kbd> <kbd>GitHub Actions</kbd>
 
 ---
 
