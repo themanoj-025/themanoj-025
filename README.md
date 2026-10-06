@@ -135,9 +135,7 @@ This monorepo is a developer profile, not a single library. Each subdirectory is
 
 ---
 
-## 🤝 Contributing
 
-This repository is a personal portfolio. Individual projects accept contributions via their own repositories and issue trackers.
 
 ---
 
