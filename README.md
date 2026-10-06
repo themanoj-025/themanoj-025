@@ -109,27 +109,7 @@
 
 ---
 
-## 📂 Repository Map
 
-This monorepo is a developer profile, not a single library. Each subdirectory is its own README:
-
-| Directory | Repository |
-| --- | --- |
-| `./Match-Mind/` | Real-time fantasy sports draft platform |
-| `./Union-Bank/` | Banking API with atomic transactions + 2FA |
-| `./AegisAI/` | Security-focused PR-review agent |
-| `./FinSight/` | Agentic personal-finance fraud system |
-| `./BookTale/` | Library management system |
-| `./CreditCardFraudDetection/` | Fraud detection with SHAP + RAG |
-| `./Dabba/` | Restaurant intelligence with MLflow |
-| `./EmotionLens/` | Facial emotion recognition (TensorFlow) |
-| `./NextGenReco/` | AI movie recommendations (Streamlit) |
-| `./PriceMyCar/` | Used-car price prediction (8 models) |
-| `./SentinelReview/` | Autonomous GitHub PR-review agent (Django) |
-| `./SmartSpamDetector/` | Spam email classification with MLOps |
-| `./Statlas/` | Football analytics with transparent methodology |
-| `./Tamasha/` | Bollywood box-office intelligence |
-| `./Veridoc/` | Verifiable document Q&A with RAG |
 
 
 
