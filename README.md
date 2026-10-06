@@ -148,17 +148,40 @@
 
 ---
 
-## 📬 Contact
+## 📬 Let's Connect
 
-<p align="center">
+Whether you want to discuss AI architecture, collaborate on an open-source project, or just say hi—my inbox is always open!
+
+<div align="center">
+  <br>
   <a href="mailto:code.me.025@gmail.com">
-    <img src="https://img.shields.io/badge/Contact_Me-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Me via Email" />
+    <img src="https://img.shields.io/badge/Email-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Me via Email" />
+  </a>
+  <a href="https://linkedin.com/in/themanoj-025">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+  </a>
+  <a href="https://twitter.com/themanoj-025">
+    <img src="https://img.shields.io/badge/Twitter_(X)-000000?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X" />
   </a>
   <a href="https://raw.githubusercontent.com/themanoj-025/themanoj-025/main/Resume.pdf">
     <img src="https://img.shields.io/badge/Resume-16A34A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download My Resume" />
   </a>
-  <a href="https://github.com/themanoj-025">
-    <img src="https://img.shields.io/badge/View_My_Work-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="View My Work on GitHub" />
-  </a>
+</div>
 
-</p>
+<br>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=themanoj-025&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=themanoj-025&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" width="48%" />
+</div>
+
+<br>
+<br>
+
+<div align="center">
+  <em><b>"Learn deeply. Build consistently. Ship intelligently."</b></em><br>
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=themanoj-025&label=Profile%20views&color=3fb950&style=flat-square" alt="Profile Views" />
+</div>
