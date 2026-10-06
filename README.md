@@ -1,6 +1,3 @@
-# ⭐ AI Systems Engineer — Portfolio
-
-> AI Systems Engineer · Production LLM & Agentic Architect · GraphRAG & Vector Search Specialist · Local SLM Fine-Tuning & vLLM Serving
 
 <div align="center">
 
