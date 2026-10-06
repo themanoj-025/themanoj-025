@@ -131,11 +131,7 @@ This monorepo is a developer profile, not a single library. Each subdirectory is
 | `./Tamasha/` | Bollywood box-office intelligence |
 | `./Veridoc/` | Verifiable document Q&A with RAG |
 
----
 
-## 📄 Note on this README
-
-This is a personal portfolio profile README, not a library README. The "project" here is a curated portfolio of engineering work. Links to each project's README are the source of truth for that project's specifics.
 
 ---
 
