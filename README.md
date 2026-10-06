@@ -31,10 +31,10 @@
         <li><b>Real-time stack:</b> high-throughput Socket.IO chat, 36 frontend views, 40+ endpoints, automated CI.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Redis/BullMQ-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Claude_API-000000?style=flat-square"/>
+        <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Redis/BullMQ-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Claude_API-000000?style=for-the-badge"/>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -46,8 +46,8 @@
         <li><b>Scalable architecture:</b> containerized with Docker, structured for high concurrency.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
       </p>
     </td>
   </tr>
@@ -61,9 +61,9 @@
         <li><b>CI/CD integration:</b> designed for seamless insertion into modern developer workflows.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-        <img src="https://img.shields.io/badge/LLMs-8A2BE2?style=flat-square"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LLMs-8A2BE2?style=for-the-badge"/>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -75,7 +75,25 @@
         <li><b>Production-grade:</b> 284 tests, versioned FastAPI facts API, Docker Compose, offline narrator.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>⚽ <a href="https://github.com/themanoj-025/Statlas">Statlas</a></h3>
+      <p><em>Football analytics platform that shows its work with transparent methodology and ML models.</em></p>
+      <ul>
+        <li><b>Transparent Analytics:</b> percentile radar comparisons, snapshot trend charts, and shot/pass maps.</li>
+        <li><b>ML Player Archetypes:</b> discovers unique player profiles using k-means clustering of per-90 stats.</li>
+        <li><b>Full-Stack Architecture:</b> Next.js 16 frontend, FastAPI backend, PostgreSQL database, fully Dockerized.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
       </p>
     </td>
   </tr>
