@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0",
+  "project": "themanoj-025",
+  "aiAssisted": null,
+  "tools": [
+  ],
+  "scope": {
+    "code": "unknown — pending confirmation",
+    "tests": "unknown — pending confirmation",
+    "docs": "unknown — pending confirmation",
+    "config": "AegisAI, Emotion-Lens, finsight-agent and other sibling repos are AI/agent products (see docs/ai/PROVENANCE.md). No confirmed statement about how these were constructed.",
+    "design": "unknown — pending confirmation"
+  },
+  "estimatedAiSharePercent": {
+    "min": 0,
+    "max": 0,
+    "basis": "No evidence present to support a non-zero estimate. Do not use this file as a basis for an AI-assistance percentage."
+  },
+  "humanReview": {
+    "performed": null,
+    "method": "unknown — pending confirmation"
+  },
+  "evidence": [
+    {
+      "type": "commit",
+      "ref": "861c73a",
+      "note": "Commit 'Add .gemini/ to .gitignore to avoid committing AI config' (Manoj, 2026-07-10) — evidence that a Gemini interface was used as a tool on this project. Mode: agent. No tool name confirmed beyond Gemini."
+    },
+    {
+      "type": "commit",
+      "ref": "33ae3f2",
+      "note": "Commit 'delete AI memory and artifact summary files' (Manoj, 2026-07-31) — evidence that AI-generated artifacts were created and later removed. Mode/climate only; generator name unconfirmed."
+    },
+    {
+      "type": "commit",
+      "ref": "c18ec30",
+      "note": "Commit 'feat: overhaul info-card.svg with modern glassmorphism design and updated AI stack' (Manoj, 2026-07-25) — the project's product includes an 'AI stack' (GraphRAG, vector DBs, vLLM, agentic AI), as restated in docs/technical and docs/audit."
+    },
+    {
+      "type": "file",
+      "ref": ".github/scripts/lint_readme.py",
+      "note": "A CI lint tool, not an AI usage artifact."
+    }
+  ],
+  "disclosureDoc": "AI_DISCLOSURE.md",
+  "lastUpdated": "2026-10-06"
+}

@@ -83,3 +83,40 @@ The `update-profile-art.yml` workflow runs daily at ~06:17 UTC to:
 ## License
 
 By contributing, you agree that your contributions will be licensed under the same license as this repository.
+
+## AI Assistance Policy
+
+This repository documents an AI/agent product portfolio (AegisAI, Emotion-Lens,
+finsight-agent, Smart-Spam-Detector). See `docs/ai/AI_DISCLOSURE.md` for the
+tools used, the scope, and the review process.
+
+### AI-assisted commits (forward-looking)
+
+Commits authored with AI assistance should carry exactly one of:
+
+- `AI-Assisted: yes`
+- `AI-Assisted: no`
+- `AI-Assisted: partial`
+
+and, where the AI tool provides an identity, a `Co-authored-by: <Tool Name>
+<noreply@...>` trailer.
+
+**Historically**: no `Co-authored-by` trailer exists for any commit in this
+repository. No source file is currently tracked that is known to be AI-written.
+Where evidence exists for a specific AI tool on a specific part of the repo, it
+is recorded in `docs/ai/PROVENANCE.md` (commits `861c73a`, `33ae3f2`, `c18ec30`).
+
+### Disclosing AI use in a PR
+
+When submitting a PR, include one of these disclosure checkboxes in the PR
+description, matching the PR template:
+
+- `[ ]` No AI assistance used
+- `[ ]` AI-assisted, fully reviewed line-by-line by a human
+- `[ ]` AI-generated, spot-checked (explain scope in PR description)
+
+### What is NOT tracked
+
+- Raw, unredacted AI chat exports (`*.chat-export.raw.json`, `.aider.chat.history.md`, etc.) are deliberately not tracked.
+- Machine-local AI config (`.claude/settings.local.json`, `.gemini/cache/`,
+  `.cursor/logs/`, `.copilot/cache/`, etc.) is ignored by `.gitignore`.
