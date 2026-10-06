@@ -39,15 +39,15 @@ see `transcripts/README.md`.
 
 ---
 
-## Prompt 4 — Portfolio architecture documentation
+## Prompt � Portfolio architecture documentation (Gemini)
 
-- **Date (commit):** 2026-07-23 (`14291e1` removed; `87948ba` added)
-- **Tool:** Not an AI; human-authored documentation.
-- **Purpose:** Publish repo-layout and pipeline architecture for the portfolio.
-- **Outcome:** Architecture diagrams live in `docs/portfolio/`. Human-reviewed
-  prose — not an AI transcript.
+- **Date (commit):** 2026-07-10 (`861c73a`, authored by Manoj)
+- **Tool:** Gemini
+- **Purpose:** Select an AI interface and keep machine-local AI config out of
+  version control.
+- **Outcome:** `.gitignore` was updated (negation block reviewed) so `.gemini/`
+  is ignored and `docs/ai/` is re-included so provenance files remain visible.
 
----
 
 > **Note on sibling repos:** AegisAI, Emotion-Lens, finsight-agent,
 > Smart-Spam-Detector, UNION-BANK-, etc. are separate git repositories, each with
