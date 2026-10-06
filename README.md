@@ -160,9 +160,6 @@ Whether you want to discuss AI architecture, collaborate on an open-source proje
   <a href="https://linkedin.com/in/themanoj-025">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
   </a>
-  <a href="https://twitter.com/themanoj-025">
-    <img src="https://img.shields.io/badge/Twitter_(X)-000000?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X" />
-  </a>
   <a href="https://raw.githubusercontent.com/themanoj-025/themanoj-025/main/Resume.pdf">
     <img src="https://img.shields.io/badge/Resume-16A34A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download My Resume" />
   </a>
