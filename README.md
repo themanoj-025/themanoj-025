@@ -153,5 +153,5 @@ This repository is a personal portfolio. Individual projects accept contribution
   <a href="https://github.com/themanoj-025">
     <img src="https://img.shields.io/badge/View_My_Work-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="View My Work on GitHub" />
   </a>
-  <img src="https://img.shields.io/badge/AI-Assisted_no-22C55E?style=for-the-badge&logo=shield&logoColor=white&label=AI%20usage" alt="AI usage: no" />
+
 </p>
