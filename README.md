@@ -83,16 +83,7 @@
 
 ---
 
-## ⚡ Core Capabilities
 
-| Capability | Description |
-| --- | --- |
-| <b>Production LLM systems</b> | LLM pipelines that are cost-aware, cached, and circuit-broken |
-| <b>Agentic architectures</b> | Tool-use loops that reason over structured tool outputs only |
-| <b>GraphRAG / vector search</b> | Hybrid retrieval over graph + vector indices for factual grounding |
-| <b>Local SLM fine-tuning</b> | Fine-tune small language models on a budget; serve with vLLM |
-| <b>Fraud & risk ML</b> | Deterministic + supervised blending with honest time-series CV |
-| <b>Real-time systems</b> | Socket.IO, Redis pub/sub, Redis-backed locks and queues |
 
 ---
 
