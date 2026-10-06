@@ -168,20 +168,3 @@ Whether you want to discuss AI architecture, collaborate on an open-source proje
   </a>
 </div>
 
-<br>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=themanoj-025&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=themanoj-025&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" width="48%" />
-</div>
-
-<br>
-<br>
-
-<div align="center">
-  <em><b>"Learn deeply. Build consistently. Ship intelligently."</b></em><br>
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=themanoj-025&label=Profile%20views&color=3fb950&style=flat-square" alt="Profile Views" />
-</div>
