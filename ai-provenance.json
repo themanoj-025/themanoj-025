@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0",
+  "project": "themanoj-025",
+  "aiAssisted": null,
+  "tools": [
+  ],
+  "scope": {
+    "code": "unknown — pending confirmation",
+    "tests": "unknown — pending confirmation",
+    "docs": "documented in docs/ai/PROVENANCE.md, docs/ai/PROMPTS.md, and docs/ai/transcripts/README.md",
+    "config": "branching, .gitignore, AGENTS.md"
+  },
+  "estimatedAiSharePercent": {
+    "min": 0,
+    "max": 0,
+    "basis": "No confirmed AI-assistance claim for this repo itself. Offspring repos (Emotion-Lens, finsight-agent, Smart-Spam-Detector, Price-My-Car, Match-Mind) carry their own AI_DISCLOSURE.md and ai-provenance.json files. This file is the canonical root-level manifest of that location."
+  },
+  "humanReview": {
+    "performed": null,
+    "method": "unknown — pending confirmation"
+  },
+  "evidence": [
+    {
+      "type": "commit",
+      "ref": "861c73a",
+      "note": "Commit 'Add .gemini/ to .gitignore to avoid committing AI config' (Manoj, 2026-07-10) — evidence that a Gemini interface was used as a tool on this project. Mode: agent."
+    },
+    {
+      "type": "commit",
+      "ref": "33ae3f2",
+      "note": "Commit 'delete AI memory and artifact summary files' (Manoj, 2026-07-31) — evidence that AI-generated artifacts were created and later removed."
+    },
+    {
+      "type": "commit",
+      "ref": "c18ec30",
+      "note": "Commit 'feat: overhaul info-card.svg with modern glassmorphism design and updated AI stack' (Manoj, 2026-07-25) — the product includes an 'AI stack' (GraphRAG, vector DBs, vLLM, agentic AI)."
+    },
+    {
+      "type": "file",
+      "ref": "docs/ai/",
+      "note": "Directory of provenance records: PROVENANCE.md, PROMPTS.md, ai-provenance.json (offspring repos), transcripts/"
+    },
+    {
+      "type": "file",
+      "ref": "AGENTS.md",
+      "note": "Canonical agent instructions for this repo"
+    }
+  ],
+  "disclosureDoc": "docs/ai/AI_DISCLOSURE.md",
+  "lastUpdated": "2026-10-06"
+}
