@@ -1,0 +1,23 @@
+# ════════════════════════════════════════════════════════════════
+# release.yml — configure GitHub Releases
+# Only relevant if the project publishes versioned releases.
+# This repo is a portfolio/experimental collection; releases are
+# optional. No release workflow is created to avoid pushing artifacts.
+# ════════════════════════════════════════════════════════════════
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  # No release job configured. If publishing to PyPI, publish via
+  # GitHub Actions separately and manage tags/versions in pyproject.toml.
+  # See https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-github-pages/ if/when this repo is published.
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Release workflow not configured for this portfolio repo"

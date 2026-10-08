@@ -1,0 +1,53 @@
+# EditorConfig helps maintain consistent coding styles between various
+# editors and IDEs. See: https://editorconfig.org/
+
+root = true
+
+# Core Python
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.py]
+indent_size = 4
+
+[*.txt]
+indent_size = 4
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
+
+# YAML / TOML (CI + config)
+[*.yml]
+[*]  # noqa: editorconfig-ignore
+indent_size = 2
+[*.yaml]
+indent_size = 2
+[*.toml]
+indent_size = 2
+
+# JSON / JSONC (pyproject, configs)
+[*.json]
+indent_size = 2
+
+# Shell
+[*.sh]
+indent_size = 4
+
+# Makefiles
+[Makefile]
+indent_style = tab
+
+# Dockerfiles
+[ Dockerfile]
+[*.Dockerfile]
+indent_size = 2
+
+# Lockfiles — keep strictly aligned, never auto-format
+[*.lock]
+indent_size = 2
