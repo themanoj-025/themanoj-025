@@ -1,4 +1,36 @@
-# === OS / Editor ===
+# =====================================================================
+# THEMANOJ-025 — AI provenance & transparency negation block
+# These files MUST remain tracked and visible. Nothing below may be
+# shadowed by a preceding ignore rule — keep this block LAST in file.
+# =====================================================================
+!.gitignore
+!.gitattributes
+!.editorconfig
+!AGENTS.md
+!.gitmessage
+!AI_DISCLOSURE.md
+!ai-provenance.json
+!.github/CODEOWNERS
+!.github/dependabot.yml
+!.github/workflows/ci.yml
+!.github/workflows/secret-scan.yml
+!.github/workflows/ai-disclosure-check.yml
+!.github/workflows/release.yml
+!.github/workflows/codeql.yml
+!.pre-commit-config.yaml
+!.gitleaks.toml
+!SECURITY.md
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+!CHANGELOG.md
+!LICENSE
+!docs/ai/AI_DISCLOSURE.md
+!docs/ai/ai-provenance.json
+!docs/ai/PROMPTS.md
+!docs/ai/PROVENANCE.md
+!docs/ai/transcripts/README.md
+
+# ─── OS / Editor ──────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 desktop.ini
@@ -11,7 +43,7 @@ $RECYCLE.BIN/
 .idea/
 *.sublime-*
 
-# === Python ===
+# ─── Python ────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *.pyo
@@ -27,31 +59,30 @@ pip-wheel-metadata/
 .Python
 .mypy_cache/
 .ruff_cache/
-
-# === Build / Dist artifacts (not committed except tracked SVGs) ===
-node_modules/
 .pytest_cache/
 
-# === Environment / Secrets ===
+# ─── Build / Dist artifacts ─────────────────────────────────────────
+node_modules/
+build/
+dist/
+*.egg
+*.whl
+
+# ─── Environment / Secrets ─────────────────────────────────────────
 .env
 .env.local
 .env.*.local
 *.secrets.toml
 
-# === Temporary capture frames ===
+# ─── Temporary capture frames / data ────────────────────────────────
 assets/frames/
 banner_frames_*/
 
-.gemini/
-.cursorrules
-
-CLAUDE.md
-
-# === OS junk ===
+# ─── OS junk ──────────────────────────────────────────────────────
 *.log
 *.tmp
 
-# ── Portfolio-standard ignores (sweep 2026-09) ──────────────
+# ── Portfolio-standard ignores (sweep 2026-09) ─────────────────────
 radar_balance.txt
 *.db
 *.db-shm
@@ -61,3 +92,30 @@ radar_balance.txt
 coverage.xml
 .act-secrets
 .secrets
+
+# =====================================================================
+# KEEP: AI provenance & transparency files — these must remain
+# visible to any repository viewer. Do not add rules above this block
+# that would shadow a directory these files live in without also
+# adding a negation here. Verified with `git check-ignore -v`.
+# =====================================================================
+!AI_DISCLOSURE.md
+!AI_USAGE.md
+!PROMPTS.md
+!AGENTS.md
+!CLAUDE.md
+!GEMINI.md
+!.cursorrules
+!.github/copilot-instructions.md
+!.claude/commands/
+!.claude/commands/**
+!.claude/agents/
+!.claude/agents/**
+!.claude/settings.json
+!docs/ai/
+!docs/ai/**
+!.ai/
+!.ai/**
+!ai-provenance.json
+!.gitmessage
+!CITATION.cff
