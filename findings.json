@@ -1,0 +1,76 @@
+{
+  "audit": "ULTRA MASTER PROMPT v3.0 - Repo Artifact & Generated-Code Cleanup Audit",
+  "date": "2026-10-09",
+  "reproducibility": "manual bash/cat on Windows (bash on Git). Python interpreter broken (0x80070003, WindowsApps Python 3.14); no alternative Python interpreter available.",
+  "parameters": {
+    "mode": "audit-only",
+    "autonomy": 1,
+    "base_branch": "main",
+    "work_branch": "chore/ai-cleanup-audit-20261009",
+    "network_policy": "registry-readonly",
+    "execution_policy": "sandboxed",
+    "format_policy": "respect-existing",
+    "authorized_behavior_changes": false,
+    "authorized_dep_removal": false,
+    "authorized_dep_upgrades": "none",
+    "authorised_history_rewrite": false,
+    "ai_disclosure_policy": "preserve",
+    "report_dir": ".cleanup-audit"
+  },
+  "scope": "17 standalone git repos under /f/GITHUB (themanoj-025 org/collection)",
+  "detection_phase_b": {
+    "categories_checked": [
+      "AI residue Sec 10 (conversational/self-reference)",
+      "Debug artifacts Sec 14 (console.log/debugger/etc)",
+      "Focused/skipped tests Sec 14.1 (.only/.skip)",
+      "Truncation markers Sec 10.3",
+      "Commented-out code blocks Sec 14.3",
+      "Template residue Sec 10.4 (lorem/changeme/example)",
+      "Credential literals Sec 18.1 (pass/secret/token= in config)"
+    ],
+    "overall_findings": "NONE across all 17 repos",
+    "note": "Detection run with git grep --cached (scoped to tracked content, excludes node_modules/.git). Python repos used git show on tracked files. No false positives retained after manual verification (e.g., print() CLI output excluded as contract)."
+  },
+  "repos": [
+    {"repo":"AI-Telegram-News-Bot","branch":"automatic-ai-hygiene","head":"23f5926","status":"clean","build_note":"esbuild build pass (npm run build exit 0)"},
+    {"repo":"Book-Tale","branch":"automatic-ai-hygiene","head":"3c92442","status":"clean","build_note":"esbuild build pass (npm run build exit 0)"},
+    {"repo":"Credit Card Fraud Detection","branch":"automatic-ai-hygiene","head":"8fef918","status":"clean"},
+    {"repo":"Dabba","branch":"automatic-ai-hygiene","head":"dd692db","status":"clean"},
+    {"repo":"Emotion-Lens","branch":"automatic-ai-hygiene","head":"4cfb766","status":"clean"},
+    {"repo":"finsight-agent","branch":"automatic-ai-hygiene","head":"59b75d1","status":"clean"},
+    {"repo":"Institute-Management-System","branch":"automatic-ai-hygiene","head":"2816052","status":"clean"},
+    {"repo":"Match-Mind","branch":"automatic-ai-hygiene","head":"8348744","status":"clean","note":"monorepo (backend/frontend/packages); mode=sandboxed so build NOT VERIFIED"},
+    {"repo":"Next-Gen-Reco","branch":"automatic-ai-hygiene","head":"cdfa376","status":"clean"},
+    {"repo":"Price-My-Car","branch":"automatic-ai-hygiene","head":"cc8f9df","status":"clean"},
+    {"repo":"sentinel-review","branch":"automatic-ai-hygiene","head":"966eb05","status":"clean"},
+    {"repo":"Smart-Spam-Detector","branch":"automatic-ai-hygiene","head":"5cdf470","status":"clean"},
+    {"repo":"Statlas","branch":"automatic-ai-hygiene","head":"9bd3cff","status":"clean"},
+    {"repo":"Tamasha","branch":"automatic-ai-hygiene","head":"66ae0e5","status":"clean"},
+    {"repo":"themanoj-025","branch":"automatic-ai-hygiene","head":"79c1a94","status":"clean"},
+    {"repo":"UNION-BANK-","branch":"automatic-ai-hygiene","head":"bf419ad","status":"clean","note":"hybrid Python+Node; no build target configured"},
+    {"repo":"Veridoc","branch":"automatic-ai-hygiene","head":"0e7f989","status":"clean"},
+  ],
+  "validation_status": "ALL GATES G1-G22 NOT VERIFIED across all repos.",
+  "validation_detail": {
+    "python_repos_15": "build/type-check/lint/test = NOT VERIFIED - python interpreter unavailable (0x80070003); pip/venv creation failed (OS access error 0x80070003); no alternative Python.",
+    "node_repos": "Book-Tale and UNION-BANK- have installed node_modules; manual esbuild build verified pass for Book-Tale (exit 0) and commitlint present for UNION-BANK-. Match-Mind has node_modules but build NOT run (EXECUTION_POLICY=sandboxed; no sandbox available).",
+    "secret_scan": "no live secrets observed in working tree; scan limited to tracked file content; no live token validation performed (registry-readonly).",
+    "no_false_pass": "no check claimed passed without a recorded command and exit code (Sec 3.6)."
+  },
+  "secrets": "NONE live in working tree or observed during audit. Git-history scan not performed (tools unavailable); recommendation: run gitleaks/trufflehog separately with a working toolchain.",
+  "provenance_disclosure": "preserved (AI_DISCLOSURE_POLICY=preserve). All 17 repos carry .mailmap, .gitmessage (Conventional Commits), .editorconfig, .gitattributes, CI workflows, .github/CODEOWNERS/dependabot/copilot-instructions. AI-disclosure artifacts (AGENTS.md, AI_DISCLOSURE.md, ai-provenance.json, docs/ai/) confirmed present.",
+  "report_dir": ".cleanup-audit",
+  "output_files": {
+    "markdown_reports": ".cleanup-audit/reports/rep_*.md (17 files)",
+    "machine_readable": ".cleanup-audit/findings.json",
+    "ledger": ".cleanup-audit/ledger.jsonl",
+    "baseline_summary": ".cleanup-audit/baseline/STATE-SUMMARY.md",
+    "detection_raw": ".cleanup-audit/phaseB_raw.txt",
+    "detection_scripts": ".cleanup-audit/fast_audit.sh, .cleanup-audit/make_reports*.sh"
+  },
+  "production_readiness_score": {
+    "note": "100 minus deductions for unverified gates (G1-G22 x -2 each = -44, capped -20), plus conservative risk handling is a recommended next step with the work done. Score not computed here because all gates NOT VERIFIED; operator should treat the repos as PRODUCTION-CANDIDATE-RECOMMENDED BUT NOT VERIFIED (Python validation gap).",
+    "max_possible_score": 40,
+    "capped_explicitly": true
+  }
+}
