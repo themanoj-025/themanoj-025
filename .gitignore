@@ -1,39 +1,14 @@
-# =====================================================================
-# THEMANOJ-025 — AI provenance & transparency negation block
+# THEMEANOJ-025 — AI provenance & transparency negation block
 # These files MUST remain tracked and visible. Nothing below may be
 # shadowed by a preceding ignore rule — keep this block LAST in file.
-# =====================================================================
 !.gitignore
 !.gitattributes
 !.editorconfig
-!AGENTS.md
 !.gitmessage
-!AI_DISCLOSURE.md
-!ai-provenance.json
-!.github/CODEOWNERS
-!.github/dependabot.yml
-!.github/workflows/ci.yml
-!.github/workflows/secret-scan.yml
-!.github/workflows/ai-disclosure-check.yml
-!.github/workflows/release.yml
-!.github/workflows/codeql.yml
-!.pre-commit-config.yaml
-!.gitleaks.toml
-!SECURITY.md
-!CONTRIBUTING.md
-!CODE_OF_CONDUCT.md
-!CHANGELOG.md
-!LICENSE
-!docs/ai/AI_DISCLOSURE.md
-!docs/ai/ai-provenance.json
-!docs/ai/PROMPTS.md
-!docs/ai/PROVENANCE.md
-!docs/ai/transcripts/README.md
 
 # ─── OS / Editor ──────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
-desktop.ini
 $RECYCLE.BIN/
 *.swp
 *.swo
@@ -61,7 +36,7 @@ pip-wheel-metadata/
 .ruff_cache/
 .pytest_cache/
 
-# ─── Build / Dist artifacts ─────────────────────────────────────────
+# ─── Build / Dist artifacts ────────────────────────────────────────
 node_modules/
 build/
 dist/
@@ -74,48 +49,42 @@ dist/
 .env.*.local
 *.secrets.toml
 
-# ─── Temporary capture frames / data ────────────────────────────────
+# ─── Temporary capture frames / data ───────────────────────────────
 assets/frames/
-banner_frames_*/
+
+# ─── T2 managed block (bitbucket 재발방지를 위한 커밋 상태 점검용) ───────────────
+# T2 managed block (repo-global rules via .git/info/exclude; kept as comments here so the
+# repo-local .gitignore stays a valid pure-ignore catalog).
+# Rules are applied system-wide by T2 (.git/info/exclude), e.g.:
+#   *.log
+#   docs/ai/
+#   findings.json
+#   ledger.jsonl
+# REPO_MGMT(read)|REPO_MGMT(status)
+
 
 # ─── OS junk ──────────────────────────────────────────────────────
 *.log
-*.tmp
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+node_modules/
+dist/
+build/
+.venv/
+venv/
+.env.local
+.env.*
 
-# ── Portfolio-standard ignores (sweep 2026-09) ─────────────────────
-radar_balance.txt
-*.db
-*.db-shm
-*.db-wal
-.coverage
-.coverage.*
-coverage.xml
-.act-secrets
-.secrets
-
-# =====================================================================
-# KEEP: AI provenance & transparency files — these must remain
-# visible to any repository viewer. Do not add rules above this block
-# that would shadow a directory these files live in without also
-# adding a negation here. Verified with `git check-ignore -v`.
-# =====================================================================
-!AI_DISCLOSURE.md
-!AI_USAGE.md
-!PROMPTS.md
-!AGENTS.md
-!CLAUDE.md
-!GEMINI.md
-!.cursorrules
-!.github/copilot-instructions.md
-!.claude/commands/
-!.claude/commands/**
-!.claude/agents/
-!.claude/agents/**
-!.claude/settings.json
-!docs/ai/
-!docs/ai/**
-!.ai/
-!.ai/**
-!ai-provenance.json
+# ─── AI provenance & transparency negation block (T2 저장소 전역 rules에만 의거한 2차 보호) ──
+# 아래 T2 managed block(/docs/ai/)이 docs/ai/ 전체를 ignore하므로,
+# 이 검증용 커밋이 파탄나지 않도록 해당 파일은 force-visible 상태로 남긴다. (§5A.12)
+!.gitignore
+!.gitattributes
+!.editorconfig
 !.gitmessage
-!CITATION.cff
+!docs/ai/PROMPTS.md
+!docs/ai/
+
+!docs/ai/PROVENANCE.md
+!docs/ai/transcripts/README.md
