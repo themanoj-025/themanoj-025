@@ -38,7 +38,7 @@
 - **Recommended:** automated link-check GitHub Action; markdown lint.
 - No unit tests (no application code); see ../technical/Testing.md.
 
-## 5. AI Agent Operating Rules
+## 5. Engineering Operating Rules
 
 - Read Tracker.md and ImplementationPlan.md before editing.
 - Never invent skills/repos/roles not present in the actual GitHub account — flag ambiguity instead.

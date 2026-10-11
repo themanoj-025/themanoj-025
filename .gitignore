@@ -88,3 +88,28 @@ venv/
 
 !docs/ai/PROVENANCE.md
 !docs/ai/transcripts/README.md
+
+# AI-assistant tooling config (no LLM/AI used in this project)
+.act-secrets
+
+# AI / Assistant tooling & artifacts
+.claude/
+CLAUDE.md
+.cursor/
+.cursorrules
+.windsurf/
+.windsurfrules
+.cline/
+.clinerules
+.continue/
+.roo/
+.gemini/
+.copilot/
+copilot-instructions.md
+.github/copilot-instructions.md
+AGENTS.md
+AGENTS_FIX.md
+.purge-reports/
+.cleanup-audit/
+ai-provenance.json
+AI_DISCLOSURE.md
