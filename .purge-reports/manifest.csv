@@ -1,0 +1,7 @@
+id,path_or_symbol,category,tier,score,signals,action,reason
+"CAND-0001",".cleanup-audit/.claude/","C","T0",95,"F1+F2","AUDIT_ONLY_REPORT","Untracked build/dependency/cache artifact directory in workspace"
+"CAND-0002",".mypy_cache/","C","T0",95,"F1+F2","AUDIT_ONLY_REPORT","Untracked build/dependency/cache artifact directory in workspace"
+"CAND-0003",".pytest_cache/","C","T0",95,"F1+F2","AUDIT_ONLY_REPORT","Untracked build/dependency/cache artifact directory in workspace"
+"CAND-0004",".ruff_cache/","C","T0",95,"F1+F2","AUDIT_ONLY_REPORT","Untracked build/dependency/cache artifact directory in workspace"
+"CAND-0005","scripts/__pycache__/","C","T0",95,"F1+F2","AUDIT_ONLY_REPORT","Untracked build/dependency/cache artifact directory in workspace"
+"CAND-0006","rem_negations.py","D","T2",68,"F1+F2","AUDIT_ONLY_REPORT","No incoming imports or explicit reference path discovered across codebase (0 weak hit(s))"

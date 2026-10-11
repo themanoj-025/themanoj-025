@@ -1,0 +1,14 @@
+{
+  "repository": "themanoj-025",
+  "mode": "AUDIT_ONLY",
+  "aggressiveness": 3,
+  "phase": 9,
+  "status": "COMPLETED_AUDIT",
+  "baseline_sha": "2acbc7d9522ff290662d26856e13110239f633b2",
+  "total_candidates": 6,
+  "t0_count": 5,
+  "t1_count": 0,
+  "t2_count": 1,
+  "t3_count": 0,
+  "updated_at": "2026-10-11T07:39:56.208Z"
+}
