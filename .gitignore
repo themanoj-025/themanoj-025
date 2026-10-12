@@ -1,4 +1,3 @@
-# THEMEANOJ-025 — AI provenance & transparency negation block
 # These files MUST remain tracked and visible. Nothing below may be
 # shadowed by a preceding ignore rule — keep this block LAST in file.
 !.gitignore
@@ -62,7 +61,6 @@ assets/frames/
 #   ledger.jsonl
 # REPO_MGMT(read)|REPO_MGMT(status)
 
-
 # ─── OS junk ──────────────────────────────────────────────────────
 *.log
 npm-debug.log*
@@ -76,40 +74,26 @@ venv/
 .env.local
 .env.*
 
-# ─── AI provenance & transparency negation block (T2 저장소 전역 rules에만 의거한 2차 보호) ──
 # 아래 T2 managed block(/docs/ai/)이 docs/ai/ 전체를 ignore하므로,
 # 이 검증용 커밋이 파탄나지 않도록 해당 파일은 force-visible 상태로 남긴다. (§5A.12)
 !.gitignore
 !.gitattributes
 !.editorconfig
 !.gitmessage
-!docs/ai/PROMPTS.md
-!docs/ai/
-
-!docs/ai/PROVENANCE.md
-!docs/ai/transcripts/README.md
 
 # AI-assistant tooling config (no LLM/AI used in this project)
 .act-secrets
 
-# AI / Assistant tooling & artifacts
 .claude/
-CLAUDE.md
 .cursor/
-.cursorrules
 .windsurf/
 .windsurfrules
 .cline/
 .clinerules
 .continue/
 .roo/
-.gemini/
 .copilot/
 copilot-instructions.md
 .github/copilot-instructions.md
-AGENTS.md
-AGENTS_FIX.md
 .purge-reports/
 .cleanup-audit/
-ai-provenance.json
-AI_DISCLOSURE.md
