@@ -2,12 +2,12 @@
 
 Key prompts that materially shaped the AI-stack portfolio. Only **sanitized**
 (prompt text with no secrets, no personal data, no internal hostnames) prompts
-are stored here. Raw, unredacted AI chat exports are deliberately not tracked â€”
+are stored here. Raw, unredacted AI chat exports are deliberately not tracked —
 see `transcripts/README.md`.
 
 ---
 
-## Prompt 1 â€” Node integration scaffolding (Gemini)
+## Prompt 1 — Node integration scaffolding (Gemini)
 
 - **Date (commit):** 2026-07-10 (`861c73a`, authored by Manoj)
 - **Tool:** Gemini
@@ -18,7 +18,7 @@ see `transcripts/README.md`.
 
 ---
 
-## Prompt 2 â€” AI artifact workflow (Gemini)
+## Prompt 2 — AI artifact workflow (Gemini)
 
 - **Date (commit):** 2026-07-31 (`33ae3f2`, authored by Manoj)
 - **Tool:** Gemini (inferred from `.gitignore` handling of `.gemini/`)
@@ -28,7 +28,7 @@ see `transcripts/README.md`.
 
 ---
 
-## Prompt 3 â€” "Updated AI stack" for the profile info card
+## Prompt 3 — "Updated AI stack" for the profile info card
 
 - **Date (commit):** 2026-07-25 (`c18ec30`, authored by Manoj)
 - **Tool:** Not an AI; a human-authored feature commit.
