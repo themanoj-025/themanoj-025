@@ -30,8 +30,70 @@
 !docs/ai/PROVENANCE.md
 !docs/ai/transcripts/README.md
 
+# ------------------------------------------------------------------------------
+# 1. SECRETS & ENVIRONMENT VARIABLES (CRITICAL)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.staging
+.env.production
+!.env.example
+!.env.template
+!.env.sample
+*.secrets.toml
+.act-secrets
+.secrets
+
+# Private keys, certificates & credentials
+*.pem
+*.key
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pkcs12
+*.cer
+*.crt
+*.der
+*.id_rsa
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+
+# Cloud & service credentials
+credentials.json
+client_secret*.json
+service-account*.json
+service_account*.json
+serviceAccountKey*.json
+google-services.json
+GoogleService-Info.plist
+.aws/
+.azure/
+.gcp/
+gcloud/
+*.publishsettings
+
+# Authentication tokens & configs
+.netrc
+.pypirc
+.npmrc
+*token*.json
+token.pickle
+auth*.json
+
 # ─── OS / Editor ──────────────────────────────────────────────────
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
 desktop.ini
 $RECYCLE.BIN/
@@ -40,6 +102,11 @@ $RECYCLE.BIN/
 *~
 .vscode/*
 !.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/*.local.*
+.vscode/mcp.json
 .idea/
 *.sublime-*
 
@@ -52,6 +119,9 @@ __pycache__/
 venv/
 env/
 ENV/
+.venv*/
+env.bak/
+venv.bak/
 *.egg
 *.whl
 .eggs/
@@ -65,33 +135,32 @@ pip-wheel-metadata/
 node_modules/
 build/
 dist/
-*.egg
-*.whl
-
-# ─── Environment / Secrets ─────────────────────────────────────────
-.env
-.env.local
-.env.*.local
-*.secrets.toml
 
 # ─── Temporary capture frames / data ────────────────────────────────
 assets/frames/
 banner_frames_*/
 
-# ─── OS junk ──────────────────────────────────────────────────────
+# ─── Logs & Database Files ─────────────────────────────────────────
+logs/
 *.log
+*.dump
+*.stackdump
 *.tmp
-
-# ── Portfolio-standard ignores (sweep 2026-09) ─────────────────────
+*.temp
+*.bak
 radar_balance.txt
 *.db
 *.db-shm
 *.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ─── Coverage & Testing ────────────────────────────────────────────
 .coverage
 .coverage.*
 coverage.xml
-.act-secrets
-.secrets
+htmlcov/
 
 # =====================================================================
 # KEEP: AI provenance & transparency files — these must remain
