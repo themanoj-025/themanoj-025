@@ -34,15 +34,6 @@
 
 ---
 
-## Verification Standards
-
-Across all 17 portfolio repositories, code quality and architectural integrity are verified through automated continuous integration:
-- **Comprehensive Automated Tests**: Over 5,500 total automated tests verifying unit behavior, integration paths, and boundary conditions.
-- **Zero Hallucination Metrics**: All benchmark results (MAE, RMSE, accuracy, latency) are grounded in held-out test splits with reproducible scripts.
-- **Strict Linting & Static Typing**: Enforced across every codebase using Ruff, Black, Mypy, ESLint, and strict TypeScript configurations.
-
----
-
 ## Connect
 
 - **Email**: [code.me.025@gmail.com](mailto:code.me.025@gmail.com)
