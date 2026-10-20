@@ -1,5 +1,3 @@
-# Manoj | AI Systems Engineer
-
 <div align="center">
 
 <img src="contrib-heatmap.svg" width="860" alt="Contribution heatmap across repositories" />
@@ -14,19 +12,6 @@
 </table>
 
 </div>
-
-> AI Systems Engineer specializing in production multi-agent systems, concurrent financial ledgers, local-first RAG architectures, and high-throughput real-time streaming backends.
-
----
-
-## Table of Contents
-
-- [About Me](#about-me)
-- [Portfolio Index](#portfolio-index)
-- [Featured Systems](#featured-systems)
-- [Technical Arsenal](#technical-arsenal)
-- [Verification Standards](#verification-standards)
-- [Connect](#connect)
 
 ---
 
