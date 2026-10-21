@@ -61,61 +61,77 @@
 
 | Language | Projects | Usage |
 |----------|----------|-------|
-| **Python** | 14 | ML/AI, APIs, Data Science, Backend |
-| **TypeScript** | 2 | Backend (Match-Mind, UNION-BANK-) |
-| **JavaScript** | 2 | Frontend (Match-Mind, UNION-BANK-) |
-| **Solidity** | 1 | Smart Contracts (UNION-BANK-) |
+| **Python** | 15 | ML/AI, Asynchronous APIs, Data Science, Deep Learning, Backend |
+| **TypeScript** | 3 | Backend & Frontend (Match-Mind, Statlas, Veridoc) |
+| **JavaScript** | 2 | Full-Stack & Tooling (Match-Mind, UNION-BANK-) |
+| **Solidity** | 1 | Smart Contracts & DeFi Reserves (UNION-BANK-) |
 
-### Web Frameworks
+### Web Frameworks & UI Runtimes
 
 | Framework | Projects | Purpose |
 |-----------|----------|---------|
-| **FastAPI** | 7 | REST APIs (AegisAI, Credit Card, Dabba, Emotion-Lens, finsight-agent, Price-My-Car, Smart-Spam-Detector) |
-| **Flask** | 1 | Web App (Book-Tale) |
-| **Streamlit** | 5 | ML Dashboards (Credit Card, Dabba, Emotion-Lens, Next-Gen-Reco, Price-My-Car) |
-| **Express.js** | 2 | Backend (Match-Mind, UNION-BANK-) |
-| **Next.js** | 1 | Frontend (Match-Mind) |
-| **React** | 1 | Frontend (UNION-BANK-) |
+| **FastAPI** | 14 | High-throughput asynchronous REST microservices & ML inference endpoints |
+| **Flask** | 1 | Application factory pattern web application (Book-Tale) |
+| **Streamlit** | 5 | Enterprise analytical cockpits & real-time prediction dashboards |
+| **Express.js** | 2 | High-concurrency backend services with Awilix IoC (Match-Mind) |
+| **Next.js 16/15** | 2 | Modern App Router SPAs with SSR/SSG (Statlas, Veridoc) |
+| **React 19** | 5 | Rich reactive frontends (Institute-Mgmt, Match-Mind, Statlas, UNION-BANK-, Veridoc) |
 
-### ML/AI Libraries
+### ML, Deep Learning & Generative AI Libraries
 
 | Library | Projects | Purpose |
 |---------|----------|---------|
-| **scikit-learn** | 6 | Traditional ML (Credit Card, Dabba, Emotion-Lens, Next-Gen-Reco, Price-My-Car, Smart-Spam-Detector) |
-| **PyTorch** | 3 | Deep Learning (Dabba, Emotion-Lens, Next-Gen-Reco) |
-| **XGBoost** | 4 | Gradient Boosting (Credit Card, Dabba, Price-My-Car, Smart-Spam-Detector) |
-| **LightGBM** | 3 | Fast Gradient Boosting (Credit Card, Dabba, Smart-Spam-Detector) |
-| **SHAP** | 3 | Model Explainability (Credit Card, Dabba, Smart-Spam-Detector) |
-| **Transformers** | 2 | NLP (AI-Telegram-News-Bot, Smart-Spam-Detector) |
-| **FAISS** | 2 | Vector Search (Credit Card, Dabba) |
-| **OpenCV** | 1 | Computer Vision (Emotion-Lens) |
+| **scikit-learn** | 10 | Classical classification, regression, clustering, preprocessing pipelines |
+| **PyTorch 2.x** | 4 | Deep neural networks, CNNs, Matrix Factorization, Embeddings |
+| **XGBoost 2.x/3.x** | 6 | Gradient boosted decision trees for tabular prediction & pricing |
+| **LightGBM** | 3 | High-efficiency gradient boosting with histogram binning |
+| **CatBoost** | 2 | Categorical feature gradient boosting (Dabba) |
+| **SHAP** | 4 | Model explainability (TreeSHAP waterfall & force plots) |
+| **FAISS** | 3 | Dense vector similarity & nearest-neighbor anomaly detection |
+| **ChromaDB** | 1 | Local-first vector store for grounded RAG (Veridoc) |
+| **Sentence-Transformers** | 1 | Dense neural document and query embeddings (Veridoc) |
+| **OpenCV** | 1 | Real-time computer vision, video frame processing, face ROI localization (Emotion-Lens) |
+| **Optuna** | 3 | Bayesian hyperparameter optimization and trial pruning |
 
-### Databases
-
-| Database | Projects | Purpose |
-|----------|----------|---------|
-| **PostgreSQL** | 5 | Primary Database (Book-Tale, Dabba, UNION-BANK-, Veridoc, Institute-Management-System) |
-| **SQLite** | 3 | Development/Testing (Book-Tale, Dabba, Credit Card) |
-| **MongoDB** | 1 | NoSQL (Match-Mind) |
-| **Redis** | 3 | Caching/Queue (Book-Tale, Dabba, UNION-BANK-) |
-
-### Cloud & DevOps
+### Distributed Task Queues, Schedulers & Real-Time
 
 | Technology | Projects | Purpose |
 |------------|----------|---------|
-| **Docker** | 17 | Containerization (All) |
-| **GitHub Actions** | 10 | CI/CD (Most projects) |
-| **Kubernetes** | 2 | Orchestration (Credit Card, Dabba) |
-| **AWS** | 3 | Cloud Hosting (AI-Telegram-News-Bot, finsight-agent, UNION-BANK-) |
+| **BullMQ** | 1 | Redis-backed distributed queue for match state transitions (Match-Mind) |
+| **ARQ** | 1 | High-performance AsyncIO Redis worker for document RAG (Veridoc) |
+| **Celery** | 2 | Distributed background task queue with Redis broker (Institute-Mgmt, sentinel-review) |
+| **Socket.IO v4** | 1 | Multiplayer authoritative state machines & real-time messaging (Match-Mind) |
+| **Redis Pub/Sub** | 3 | Real-time auction bid broadcasting & cache invalidation (Tamasha, Book-Tale, Match-Mind) |
+| **APScheduler** | 1 | Scheduled news harvesting & automated broadcast triggers (AI-Telegram-News-Bot) |
 
-### External APIs & Services
+### Databases & In-Memory Engines
+
+| Database | Projects | Purpose |
+|----------|----------|---------|
+| **PostgreSQL 16** | 7 | Primary relational store with async SQLAlchemy 2.0 & Prisma ORM |
+| **SQLite (WAL)** | 4 | Local high-speed testing with Write-Ahead Logging & aiosqlite |
+| **MongoDB** | 1 | Document-oriented NoSQL storage (Match-Mind) |
+| **Redis 7** | 8 | Distributed caching, session storage, locks, pub/sub, and task queues |
+| **ChromaDB** | 1 | Embedded vector database for local document retrieval |
+
+### Cloud, DevOps & DevSecOps
+
+| Technology | Projects | Purpose |
+|------------|----------|---------|
+| **Docker** | 18 | Production multi-stage containerization across 100% of portfolio |
+| **GitHub Actions** | 14 | Automated CI/CD test matrices, linting, security scans, releases |
+| **Kubernetes** | 4 | Container orchestration manifests (Credit Card, Dabba, Match-Mind, UNION-BANK-) |
+| **uv Toolchain** | 18 | Ultra-fast deterministic Python dependency resolution and packaging |
+| **Semgrep / Bandit / Gitleaks** | 18 | Automated SAST vulnerability checks and secret leak prevention |
+
+### External APIs & Foundation Models
 
 | Service | Projects | Purpose |
 |---------|----------|---------|
-| **Anthropic Claude** | 3 | LLM Integration (Credit Card, Dabba, finsight-agent) |
-| **OpenAI** | 2 | LLM Integration (AI-Telegram-News-Bot, Smart-Spam-Detector) |
-| **Twilio** | 1 | SMS/WhatsApp (AI-Telegram-News-Bot) |
-| **Kaggle** | 3 | Datasets (Credit Card, Dabba, Price-My-Car) |
+| **Anthropic Claude 3.5** | 7 | Autonomous code review, financial analysis, RAG, sports commentary |
+| **OpenAI GPT-4o** | 3 | Automated summarization, PR reviews, code quality grading |
+| **Google Gemini API** | 1 | Multimodal ingestion and evaluation |
+| **GitHub GraphQL / REST** | 3 | Pull request webhooks, contribution telemetry, repository auditing |
 
 ---
 

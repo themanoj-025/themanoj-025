@@ -1,6 +1,6 @@
 # 🏗️ Portfolio Architecture Diagram
 
-> Visual representation of all 17 projects, their relationships, shared technologies, and architectural patterns.
+> Visual representation of all 18 projects, their relationships, shared technologies, and architectural patterns.
 
 ---
 
@@ -67,23 +67,40 @@ mindmap
         FastAPI
         SQLAlchemy
         Celery
+        ReportLab
+      Match-Mind
+        TypeScript
+        Express
+        Socket.IO
+        BullMQ
+        Awilix IoC
+        Prisma ORM
       Statlas
         FastAPI
         SQLAlchemy
-        Next.js
-        Anthropic Claude
+        Next.js 16
+        Claude 3.5
+        Simulation Engine
       UNION-BANK-
-        React
-        Next.js
-        Node.js
-        Solidity
+        React 19
+        FastAPI
+        Solidity 0.8+
+        Double-Entry Ledger
+        Row-Level Locking
     Creative/Media
       Tamasha
         FastAPI
-        PostgreSQL
+        Redis Pub/Sub
+        WebSockets
+        NetworkX
+        Prometheus
       Veridoc
         FastAPI
-        PostgreSQL
+        Next.js
+        ChromaDB
+        PyMuPDF
+        Tesseract OCR
+        ARQ Queue
     Personal
       themanoj-025
         Profile README
@@ -585,13 +602,13 @@ graph TB
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
 │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐        │
-│  │   AI/ML (10)    │  │  Web Apps (4)   │  │  Creative (2)   │        │
+│  │   AI/ML (10)    │  │  Web Apps (5)   │  │  Creative (2)   │        │
 │  │                 │  │                 │  │                 │        │
 │  │ • AegisAI       │  │ • Book-Tale     │  │ • Tamasha       │        │
 │  │ • AI-News-Bot   │  │ • Institute-Mgmt│  │ • Veridoc       │        │
-│  │ • Fraud Detection│ │ • Match-Mind    │  │                 │        │
-│  │ • Dabba         │  │ • UNION-BANK-   │  │                 │        │
-│  │ • Emotion-Lens  │  │                 │  │                 │        │
+│  │ • Fraud Detect  │  │ • Match-Mind    │  │                 │        │
+│  │ • Dabba         │  │ • Statlas       │  │                 │        │
+│  │ • Emotion-Lens  │  │ • UNION-BANK-   │  │                 │        │
 │  │ • FinSight      │  │                 │  │                 │        │
 │  │ • Next-Gen-Reco │  │                 │  │                 │        │
 │  │ • Price-My-Car  │  │                 │  │                 │        │
@@ -599,14 +616,19 @@ graph TB
 │  │ • Spam-Detector │  │                 │  │                 │        │
 │  └─────────────────┘  └─────────────────┘  └─────────────────┘        │
 │                                                                         │
+│  ┌─────────────────┐                                                  │
+│  │   Personal (1)  │                                                  │
+│  │ • themanoj-025  │                                                  │
+│  └─────────────────┘                                                  │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  Languages: Python (14) │ TypeScript (2) │ JavaScript (1) │ Solidity  │
+│  Languages: Python (15) │ TypeScript (3) │ JavaScript (2) │ Solidity  │
 ├─────────────────────────────────────────────────────────────────────────┤
-│  ML: scikit-learn, PyTorch, XGBoost, LightGBM, SHAP, FAISS            │
-│  Web: FastAPI, Flask, Streamlit, Express.js, Next.js, React            │
-│  DB: PostgreSQL, SQLite, MongoDB, Redis                                 │
-│  DevOps: Docker, GitHub Actions, Kubernetes                            │
-│  AI: Anthropic Claude, OpenAI                                          │
+│  ML: scikit-learn, PyTorch, XGBoost, LightGBM, CatBoost, SHAP, FAISS  │
+│  Web: FastAPI, Flask, Streamlit, Express.js, Next.js 16, React 19     │
+│  DB: PostgreSQL, SQLite (WAL), MongoDB, Redis, ChromaDB               │
+│  DevOps: Docker, GitHub Actions, Kubernetes, uv, Nginx                │
+│  Queues & RT: BullMQ, ARQ, Celery, Socket.IO v4, Redis Pub/Sub        │
+│  AI: Anthropic Claude 3.5, OpenAI GPT-4o, Gemini, Ollama Local LLMs   │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
