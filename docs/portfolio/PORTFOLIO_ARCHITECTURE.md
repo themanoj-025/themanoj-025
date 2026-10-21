@@ -67,6 +67,11 @@ mindmap
         FastAPI
         SQLAlchemy
         Celery
+      Statlas
+        FastAPI
+        SQLAlchemy
+        Next.js
+        Anthropic Claude
       UNION-BANK-
         React
         Next.js
