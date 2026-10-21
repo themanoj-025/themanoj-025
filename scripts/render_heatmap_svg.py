@@ -28,9 +28,6 @@ LEFT_LABEL_W = 30
 TOP_LABEL_H = 20
 TITLEBAR_H = 30
 
-BG = "#050a12"
-BG2 = "#050a12"
-FRAME = "none"
 MUTED = "#ffffff"
 TEXT = "#ffffff"
 ACCENT = "#22d3ee"
@@ -114,12 +111,6 @@ def render(data):
         (f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_w}" height="{canvas_h}" '
         f'viewBox="0 0 {canvas_w} {canvas_h}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">'),
         f"<style>{css}</style>",
-        ("<defs>"
-        f'<linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1">'
-        f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/></linearGradient>'
-        "</defs>"),
-        # Background and border removed to merge with page background
-        f'<line x1="0" y1="{TITLEBAR_H}" x2="{canvas_w}" y2="{TITLEBAR_H}" stroke="{FRAME}" stroke-opacity="0.35"/>',
     ]
     for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
         parts.append(
@@ -178,9 +169,6 @@ def render(data):
     )
 
     sep_y = leg_y + CELL + 14
-    parts.append(
-        f'<line x1="0" y1="{sep_y}" x2="{canvas_w}" y2="{sep_y}" stroke="{FRAME}" stroke-opacity="0.25"/>'
-    )
 
     cs = data["current_streak"]["length"]
     ls = data["longest_streak"]["length"]

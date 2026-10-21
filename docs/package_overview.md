@@ -52,7 +52,6 @@ their location under `scripts/` is a CI contract.
 | `contrib-heatmap.svg`, `manoj-ascii.svg`, `info-card.svg` | README-embedded art | **Yes — must stay at root** |
 | `source-prepped.png` | Pipeline intermediate (read by `make_ascii_svg.py`) | **Yes — script default path** |
 | `Resume.pdf` | Resume linked from README | **Yes — README link** |
-| `Banner.png` | Legacy/unreferenced banner asset | No — **flagged** (see RiskRegister follow-up) |
 
 ## 6. Test Coverage
 

@@ -15,7 +15,6 @@ themanoj-025/
 ├── PROJECT_ANALYSIS.md            # Root project analysis document
 ├── PROJECT_OVERVIEW.md            # Root project overview (structure, env, run book)
 ├── README.md                      # The rendered GitHub profile page (entry artifact)
-├── Banner.png                     # Legacy banner asset (unreferenced by README; flagged)
 ├── contrib-heatmap.svg            # Contribution heatmap — README-embedded, CI-committed (contract)
 ├── data/
 │   └── contributions.json         # Cached contribution data (pipeline input)

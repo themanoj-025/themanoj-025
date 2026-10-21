@@ -17,10 +17,7 @@ import html
 import os
 import sys
 
-import structlog
 from PIL import Image, ImageEnhance, ImageFilter
-
-logger = structlog.get_logger("make_ascii_svg")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # defaults to the prepped grayscale image (see prep_photo.py), which already has
@@ -52,9 +49,6 @@ ART_H = ROWS * CELL_H
 CANVAS_W = ART_W + PAD * 2
 CANVAS_H = TITLEBAR_H + ART_H + STATUS_H + PAD
 
-BG = "#050a12"
-BG2 = "#050a12"
-FRAME = "none"
 TITLE_TEXT = "#7d8590"
 INK = "#c9d1d9"  # the single ascii color (matches Andrew6rant)
 CURSOR = "#c9d1d9"
@@ -96,18 +90,6 @@ parts.append(
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{CANVAS_W}" height="{CANVAS_H}" '
     f'viewBox="0 0 {CANVAS_W} {CANVAS_H}" font-family="ui-monospace, SFMono-Regular, '
     f'Menlo, Consolas, monospace">'
-)
-parts.append(
-    "<defs>"
-    f'<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">'
-    f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/>'
-    f"</linearGradient></defs>"
-)
-
-# Background and border removed to merge with page background
-
-parts.append(
-    f'<line x1="0" y1="{TITLEBAR_H}" x2="{CANVAS_W}" y2="{TITLEBAR_H}" stroke="{FRAME}"/>'
 )
 for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(
@@ -152,9 +134,6 @@ for ry, line in enumerate(rows_txt):
 status_line_y = TITLEBAR_H + ART_H + PAD * 0.35
 status_y = status_line_y + 19
 parts.append(
-    f'<line x1="0" y1="{status_line_y:.1f}" x2="{CANVAS_W}" y2="{status_line_y:.1f}" stroke="{FRAME}"/>'
-)
-parts.append(
     f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="13">'
     f'manoj@github:~$ whoami <tspan fill="{INK}">Manoj Jana</tspan></text>'
 )
@@ -168,4 +147,4 @@ parts.append("</svg>")
 svg = "".join(parts)
 with open(OUT, "w") as f:
     f.write(svg)
-logger.info("wrote", path=OUT, size=len(svg), width=CANVAS_W, height=CANVAS_H)
+print(f"wrote {OUT}: {len(svg)} bytes ({CANVAS_W}x{CANVAS_H})")

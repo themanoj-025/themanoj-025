@@ -41,7 +41,7 @@
 | Component | Location | Responsibility |
 | --- | --- | --- |
 | Profile README | `README.md` | The rendered profile page: featured projects, technical arsenal, GitHub stats, contact links. References the generated SVG assets and `Resume.pdf` by **root-relative path** (e.g. `./contrib-heatmap.svg`) — these paths are a deployment contract. |
-| Art assets | `contrib-heatmap.svg`, `manoj-ascii.svg`, `info-card.svg`, `source-prepped.png`, `Banner.png`, `Resume.pdf` | Static presentation artifacts embedded by the README or produced/consumed by the pipeline. |
+| Art assets | `contrib-heatmap.svg`, `manoj-ascii.svg`, `info-card.svg`, `source-prepped.png`, `Resume.pdf` | Static presentation artifacts embedded by the README or produced/consumed by the pipeline. |
 | Art pipeline | `scripts/` | Five standalone Python scripts (stdlib + `requests`/`bs4`/`Pillow`/`opencv`/`rembg`) that fetch contribution data and render the profile SVGs. Each writes to a fixed path relative to the repo root. |
 | Cached data | `data/contributions.json` | Raw GitHub contribution days plus derived stats, produced by `fetch_contributions.py`, consumed by `render_heatmap_svg.py`. |
 | Scheduled refresh | `.github/workflows/update-profile-art.yml` | Daily (`17 6 * * *` UTC) and on-push refresh: fetch → render → auto-commit `data/contributions.json` + `contrib-heatmap.svg`. |
