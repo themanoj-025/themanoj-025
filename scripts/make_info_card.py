@@ -5,9 +5,6 @@ Background set to transparent (no background rect) so it merges 100% seamlessly 
 
 import html
 import os
-import structlog
-
-logger = structlog.get_logger("make_info_card")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
@@ -102,14 +99,12 @@ for i, row in enumerate(ROWS):
             f'<text x="{KEY_X}" y="{y:.1f}" font-size="14" font-weight="700">'
             f'<tspan fill="#3fb950">manoj</tspan><tspan fill="#7d8590">@</tspan>'
             f'<tspan fill="#22d3ee">github</tspan></text>'
-            f'<line x1="{KEY_X + 110}" y1="{y - 4:.1f}" x2="{W - PAD}" y2="{y - 4:.1f}" stroke="none"/>'
         )
     elif kind == "sec":
         title = esc(row[1])
         inner = (
             f'<text x="{KEY_X}" y="{y:.1f}" fill="#58a6ff" font-size="12" font-weight="700">'
             f"&#8212; {title}</text>"
-            f'<line x1="{KEY_X + 110}" y1="{y - 4:.1f}" x2="{W - PAD}" y2="{y - 4:.1f}" stroke="none"/>'
         )
     elif kind == "kv":
         key = esc(row[1])
@@ -117,10 +112,7 @@ for i, row in enumerate(ROWS):
         color = row[3] if len(row) > 3 else "#c9d1d9"
         weight = row[4] if len(row) > 4 else "400"
         italic = ' font-style="italic"' if len(row) > 5 and row[5] else ""
-
         key_color = "#ffa657"
-        if key in ["Role", "Focus", "Mindset"]:
-            key_color = "#ffa657"
 
         inner = (
             f'<text x="{KEY_X}" y="{y:.1f}" fill="{key_color}" font-size="12.5" font-weight="700">{key}</text>'
@@ -146,4 +138,4 @@ svg = "".join(parts)
 with open(OUT, "w", encoding="utf-8") as f:
     f.write(svg)
 
-logger.info("generated", path=OUT, size=len(svg), width=W, height=H)
+print(f"generated {OUT}: {len(svg)} bytes ({W}x{H})")

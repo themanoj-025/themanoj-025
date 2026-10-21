@@ -699,7 +699,6 @@ Total tracked files in repository tree: 79
 | [`.vscode/settings.json`](.vscode/settings.json) | `.json` | 16 | 441 | Repository configuration asset |
 | [`AGENTS.md`](AGENTS.md) | `.md` | 77 | 2208 | Documentation asset |
 | [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md) | `.md` | 66 | 2643 | Documentation asset |
-| [`Banner.png`](Banner.png) | `.png` | 3989 | 589169 | Visual design asset or portfolio credential |
 | [`CHANGELOG.md`](CHANGELOG.md) | `.md` | 8 | 515 | Documentation asset |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | `.md` | 21 | 714 | Documentation asset |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | `.md` | 122 | 3903 | Documentation asset |

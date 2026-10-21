@@ -130,6 +130,7 @@ pip-wheel-metadata/
 .mypy_cache/
 .ruff_cache/
 .pytest_cache/
+uv.lock
 
 # ─── Build / Dist artifacts ─────────────────────────────────────────
 node_modules/
