@@ -18,39 +18,40 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Projects** | 17 |
-| **Primary Language** | Python (14), TypeScript (2), JavaScript (1) |
-| **Total PROJECT_OVERVIEW.md Files** | 17 (100% coverage) |
+| **Total Projects** | 18 |
+| **Primary Language** | Python (15), TypeScript (3), JavaScript (2) |
+| **Total Repositories Indexed** | 18 (100% coverage) |
 | **All Repos Synced** | ✅ Yes |
 
 ---
 
 ## Project Categories
 
-### 🤖 AI/ML Projects (10)
+### 🤖 AI/ML & Agent Systems (10)
 1. **AegisAI** — AI code review agent
 2. **AI-Telegram-News-Bot** — AI-powered Telegram news bot
-3. **Credit Card Fraud Detection** — ML fraud detection system
-4. **Dabba** — Restaurant intelligence platform
-5. **Emotion-Lens** — Computer vision emotion recognition
-6. **finsight-agent** — Financial AI agent
-7. **Next-Gen-Reco** — Recommendation engine
-8. **Price-My-Car** — Car price prediction ML
-9. **Sentinel-Review** — Code review automation
-10. **Smart-Spam-Detector** — ML spam detection
+3. **Credit Card Fraud Detection** — ML fraud detection system with SHAP & FAISS
+4. **Dabba** — Restaurant intelligence platform with MLflow & FAISS
+5. **Emotion-Lens** — Computer vision emotion recognition with PyTorch & OpenCV
+6. **finsight-agent** — Financial AI agent with Claude & LangChain
+7. **Next-Gen-Reco** — Neural collaborative filtering recommendation engine
+8. **Price-My-Car** — Car price prediction ML with XGBoost
+9. **Sentinel-Review** — Code review automation with AST parsing & Claude
+10. **Smart-Spam-Detector** — ML spam detection & text classification
 
-### 🌐 Web Applications (4)
-1. **Book-Tale** — Library management system
-2. **Institute-Management-System** — Education management
-3. **Match-Mind** — Quiz/trivia platform
-4. **UNION-BANK-** — Banking application
+### 🌐 Web Applications & Platforms (5)
+1. **Book-Tale** — Library management system with WebSockets & Celery
+2. **Institute-Management-System** — Education management with FastAPI & React
+3. **Match-Mind** — Real-time multiplayer trivia platform with Socket.IO & BullMQ
+4. **Statlas** — Cricket sports analytics & match simulation platform with Next.js 19 & Claude
+5. **UNION-BANK-** — Digital banking application with DeFi & Solidity smart contracts
 
-### 🎨 Creative/Media (2)
-1. **Tamasha** — Entertainment platform
-2. **Veridoc** — Document verification
+### 🎨 Creative/Media & Document Intelligence (2)
+1. **Tamasha** — Entertainment platform with observability stack
+2. **Veridoc** — Document verification & OCR platform with ARQ & ChromaDB
 
 ### 👤 Personal (1)
-1. **themanoj-025** — Profile repository
+1. **themanoj-025** — Profile repository with automated vector SVG generation pipelines
 
 ---
 
@@ -232,28 +233,36 @@
 | **Key Features** | Content management, user engagement, analytics |
 | **GitHub** | [themanoj-025/Tamasha](https://github.com/themanoj-025/Tamasha) |
 
-### 15. themanoj-025
+### 15. Statlas
 | | |
 |---|---|
-| **Purpose** | GitHub profile repository |
-| **Tech Stack** | Markdown |
-| **Key Features** | Profile README, contribution stats, project links |
+| **Purpose** | Cricket sports analytics & match simulation platform |
+| **Tech Stack** | Python 3.11, FastAPI, SQLAlchemy 2.0, PostgreSQL, Next.js 19, TypeScript, Anthropic Claude |
+| **Key Features** | Match simulations, analytical dashboards, Playwright E2E, Axe-core A11y, LHCI, k6 load testing, uv |
+| **GitHub** | [themanoj-025/Statlas](https://github.com/themanoj-025/Statlas) |
+
+### 16. themanoj-025
+| | |
+|---|---|
+| **Purpose** | GitHub profile repository & automated vector engine |
+| **Tech Stack** | Python, OpenCV, Pillow, Rembg, NumPy, Bash, GitHub Actions |
+| **Key Features** | Profile README, dynamic contribution heatmap SVG, ASCII art card, automated CI linter |
 | **GitHub** | [themanoj-025/themanoj-025](https://github.com/themanoj-025/themanoj-025) |
 
-### 16. UNION-BANK-
+### 17. UNION-BANK-
 | | |
 |---|---|
-| **Purpose** | Banking application |
+| **Purpose** | Digital banking application & DeFi platform |
 | **Tech Stack** | TypeScript, React, Next.js, Node.js, Express.js, PostgreSQL, Solidity |
-| **Key Features** | Account management, transactions, DeFi integration, smart contracts |
+| **Key Features** | Account management, transactions, DeFi integration, smart contracts, k6 testing |
 | **GitHub** | [themanoj-025/Union-Bank](https://github.com/themanoj-025/Union-Bank) |
 
-### 17. Veridoc
+### 18. Veridoc
 | | |
 |---|---|
-| **Purpose** | Document verification system |
-| **Tech Stack** | Python, FastAPI, PostgreSQL |
-| **Key Features** | Document validation, OCR, authenticity checking |
+| **Purpose** | Grounded document verification & OCR platform |
+| **Tech Stack** | Python, FastAPI, ARQ, ChromaDB, Next.js, Radix UI, TanStack Query |
+| **Key Features** | Document validation, vector embeddings, authenticity checking, async queue processing |
 | **GitHub** | [themanoj-025/Veridoc](https://github.com/themanoj-025/Veridoc) |
 
 ---
@@ -268,17 +277,18 @@
 | Credit Card Fraud Detection | ✅ | | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Dabba | ✅ | | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Emotion-Lens | ✅ | | ✅ | ✅ | | ✅ | ✅ |
-| finsight-agent | ✅ | | ✅ | ✅ | | ✅ | |
-| Institute-Management-System | ✅ | | | ✅ | ✅ | ✅ | |
-| Match-Mind | | ✅ | | ✅ | ✅ | ✅ | |
-| Next-Gen-Reco | ✅ | | ✅ | ✅ | | ✅ | |
-| Price-My-Car | ✅ | | ✅ | ✅ | | ✅ | |
+| finsight-agent | ✅ | | ✅ | ✅ | | ✅ | ✅ |
+| Institute-Management-System | ✅ | | | ✅ | ✅ | ✅ | ✅ |
+| Match-Mind | | ✅ | | ✅ | ✅ | ✅ | ✅ |
+| Next-Gen-Reco | ✅ | | ✅ | ✅ | | ✅ | ✅ |
+| Price-My-Car | ✅ | | ✅ | ✅ | | ✅ | ✅ |
 | sentinel-review | ✅ | | | ✅ | | ✅ | ✅ |
-| Smart-Spam-Detector | ✅ | | ✅ | ✅ | | ✅ | |
-| Tamasha | ✅ | | | ✅ | ✅ | ✅ | |
-| themanoj-025 | | | | | | | |
-| UNION-BANK- | | ✅ | | ✅ | ✅ | ✅ | |
-| Veridoc | ✅ | | | ✅ | ✅ | ✅ | |
+| Smart-Spam-Detector | ✅ | | ✅ | ✅ | | ✅ | ✅ |
+| Statlas | ✅ | ✅ | | ✅ | ✅ | ✅ | ✅ |
+| Tamasha | ✅ | | | ✅ | ✅ | ✅ | ✅ |
+| themanoj-025 | ✅ | | | | | | ✅ |
+| UNION-BANK- | ✅ | ✅ | | ✅ | ✅ | ✅ | ✅ |
+| Veridoc | ✅ | ✅ | | ✅ | ✅ | ✅ | ✅ |
 
 ---
 
@@ -286,15 +296,15 @@
 
 | Category | Count |
 |----------|-------|
-| **Total Repos** | 17 |
-| **Python Projects** | 14 |
-| **TypeScript Projects** | 2 |
+| **Total Repos** | 18 |
+| **Python Projects** | 15 |
+| **TypeScript Projects** | 3 |
 | **ML/AI Projects** | 10 |
-| **Web Applications** | 4 |
-| **With Databases** | 9 |
-| **With CI/CD** | 10 |
+| **Web Applications** | 5 |
+| **With Databases** | 10 |
+| **With CI/CD** | 17 |
 | **With Docker** | 17 |
 
 ---
 
-*Document generated: August 8, 2026*
+*Document updated: October 21, 2026*
