@@ -117,7 +117,6 @@ Beyond static presentation, the repository houses automated vector rendering aut
 | **ASCII Terminal Card Engine** | Script generating high-resolution ASCII terminal art and developer identity cards | [`scripts/make_ascii_svg.py`](scripts/make_ascii_svg.py), [`scripts/make_info_card.py`](scripts/make_info_card.py) |
 | **GitHub GraphQL Ingestion** | Script pulling real-time activity and repository metrics via authenticated GraphQL queries | [`scripts/fetch_contributions.py`](scripts/fetch_contributions.py) |
 | **README Verification Linter**| Automated AST checker verifying link integrity, table alignment, and badge fidelity | [`.github/scripts/lint_readme.py`](.github/scripts/lint_readme.py) |
-| **AI Provenance Ledger** | Formal AI disclosure documenting prompt transparency and automated audit records | [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md), [`docs/ai/`](docs/ai/) |
 | **Architectural Specifications** | Standardized technical guidelines across security, schema design, and deployment | [`docs/technical/`](docs/technical/) |
 
 ---
@@ -344,7 +343,6 @@ themanoj-025/
 | [`.github/scripts/lint_readme.py`](.github/scripts/lint_readme.py) | Quality Assurance | Enforces table formatting, link resolution, and Markdown rules |
 | [`docs/portfolio/PORTFOLIO_ARCHITECTURE.md`](docs/portfolio/PORTFOLIO_ARCHITECTURE.md) | System Architecture | Architectural blueprints across all 17 portfolio systems |
 | [`docs/technical/Testing.md`](docs/technical/Testing.md) | Verification Standards | Defines multi-tier testing standards and property test requirements |
-| [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md) | Governance & Ethics | Discloses AI assistant usage, prompt provenance, and verification bounds |
 | [`pyproject.toml`](pyproject.toml) | Build Configuration | Defines Python runtime settings and Ruff configuration |
 
 ---
@@ -611,7 +609,6 @@ Deployment is native to GitHub: committing to `main` instantly updates the user 
 18. **Q: What is the target duration benchmark for rendering the SVG contribution heatmap?**  
     *A:* < 500 ms (measured at 120 ms). Reference: [§PERF](#perf).
 19. **Q: Where is AI disclosure and prompt provenance documented?**  
-    *A:* In `AI_DISCLOSURE.md` and `docs/ai/`. Reference: [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md).
 20. **Q: What linter is configured in `pyproject.toml`?**  
     *A:* Ruff. Reference: [`pyproject.toml`](pyproject.toml).
 21. **Q: What fallback mechanism occurs if the GitHub GraphQL API query fails?**  
@@ -697,8 +694,6 @@ Total tracked files in repository tree: 79
 | [`.mailmap`](.mailmap) | `no-ext` | 6 | 304 | Repository configuration asset |
 | [`.pre-commit-config.yaml`](.pre-commit-config.yaml) | `.yaml` | 44 | 1347 | Repository configuration asset |
 | [`.vscode/settings.json`](.vscode/settings.json) | `.json` | 16 | 441 | Repository configuration asset |
-| [`AGENTS.md`](AGENTS.md) | `.md` | 77 | 2208 | Documentation asset |
-| [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md) | `.md` | 66 | 2643 | Documentation asset |
 | [`CHANGELOG.md`](CHANGELOG.md) | `.md` | 8 | 515 | Documentation asset |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | `.md` | 21 | 714 | Documentation asset |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | `.md` | 122 | 3903 | Documentation asset |
@@ -708,15 +703,12 @@ Total tracked files in repository tree: 79
 | [`README.md`](README.md) | `.md` | 138 | 9184 | Documentation asset |
 | [`Resume.pdf`](Resume.pdf) | `.pdf` | 793 | 96471 | Visual design asset or portfolio credential |
 | [`SECURITY.md`](SECURITY.md) | `.md` | 22 | 775 | Documentation asset |
-| [`ai-provenance.json`](ai-provenance.json) | `.json` | 51 | 2018 | Repository configuration asset |
 | [`contrib-heatmap.svg`](contrib-heatmap.svg) | `.svg` | 5 | 61582 | Visual design asset or portfolio credential |
 | [`data/contributions.json`](data/contributions.json) | `.json` | 1557 | 24281 | Cached contributions dataset |
 | [`docs/README.md`](docs/README.md) | `.md` | 62 | 2997 | Technical architecture documentation |
-| [`docs/ai/AI_DISCLOSURE.md`](docs/ai/AI_DISCLOSURE.md) | `.md` | 96 | 4695 | AI disclosure and prompt provenance documentation |
 | [`docs/ai/PROMPTS.md`](docs/ai/PROMPTS.md) | `.md` | 57 | 2408 | AI disclosure and prompt provenance documentation |
 | [`docs/ai/PROVENANCE.md`](docs/ai/PROVENANCE.md) | `.md` | 53 | 2004 | AI disclosure and prompt provenance documentation |
 | [`docs/ai/README.md`](docs/ai/README.md) | `.md` | 19 | 1054 | AI disclosure and prompt provenance documentation |
-| [`docs/ai/ai-provenance.json`](docs/ai/ai-provenance.json) | `.json` | 47 | 1949 | AI disclosure and prompt provenance documentation |
 | [`docs/ai/transcripts/README.md`](docs/ai/transcripts/README.md) | `.md` | 50 | 2355 | AI disclosure and prompt provenance documentation |
 | [`docs/architecture.md`](docs/architecture.md) | `.md` | 77 | 5684 | Technical architecture documentation |
 | [`docs/audit/cleanup-audit-2026-08-13.md`](docs/audit/cleanup-audit-2026-08-13.md) | `.md` | 53 | 2407 | Forensic audit and cleanup ledger |
