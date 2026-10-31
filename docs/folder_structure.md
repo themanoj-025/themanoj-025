@@ -11,7 +11,6 @@ themanoj-025/
 ├── .gitignore                     # Standard ignore set incl. .ruff_cache/, .gemini/, .cursorrules
 ├── .vscode/
 │   └── settings.json              # Editor settings (tracked)
-├── AGENTS.md                      # Agent operating instructions (v6.0 universal prompt)
 ├── PROJECT_ANALYSIS.md            # Root project analysis document
 ├── PROJECT_OVERVIEW.md            # Root project overview (structure, env, run book)
 ├── README.md                      # The rendered GitHub profile page (entry artifact)
