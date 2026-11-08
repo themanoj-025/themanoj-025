@@ -1,17 +1,17 @@
 {
   "username": "themanoj-025",
-  "generated_at": "2026-11-06T14:33:24Z",
+  "generated_at": "2026-11-08T03:58:06Z",
   "range": {
-    "start": "2025-11-02",
-    "end": "2026-11-06"
+    "start": "2025-11-09",
+    "end": "2026-11-08"
   },
-  "total_contributions": 9861,
+  "total_contributions": 9862,
   "active_days": 86,
   "avg_per_active_day": 114.7,
   "current_streak": {
-    "length": 85,
-    "start": "2026-08-14",
-    "end": "2026-11-06"
+    "length": 0,
+    "start": null,
+    "end": null
   },
   "longest_streak": {
     "length": 85,
@@ -73,38 +73,10 @@
     },
     {
       "month": "2026-11",
-      "total": 38
+      "total": 39
     }
   ],
   "days": [
-    {
-      "date": "2025-11-02",
-      "count": 0
-    },
-    {
-      "date": "2025-11-03",
-      "count": 0
-    },
-    {
-      "date": "2025-11-04",
-      "count": 0
-    },
-    {
-      "date": "2025-11-05",
-      "count": 0
-    },
-    {
-      "date": "2025-11-06",
-      "count": 0
-    },
-    {
-      "date": "2025-11-07",
-      "count": 0
-    },
-    {
-      "date": "2025-11-08",
-      "count": 0
-    },
     {
       "date": "2025-11-09",
       "count": 0
@@ -1555,7 +1527,15 @@
     },
     {
       "date": "2026-11-06",
-      "count": 3
+      "count": 4
+    },
+    {
+      "date": "2026-11-07",
+      "count": 0
+    },
+    {
+      "date": "2026-11-08",
+      "count": 0
     }
   ]
 }
