@@ -94,10 +94,3 @@ stateDiagram-v2
 - Mobile: tables collapse to stacked layout (GitHub handles responsively); badge rows wrap.
 - Desktop: full two-column layout (ascii + info card side by side).
 
-## 8. Related Documents
-
-| Document | Relationship |
-| --- | --- |
-| [PRD.md](../product/PRD.md) | Sections trace to REQ-### IDs |
-| [Design.md](Design.md) | Visual tokens per section |
-| [Testing.md](../technical/Testing.md) | Link/render verification per section |
