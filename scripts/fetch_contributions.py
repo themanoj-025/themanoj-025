@@ -48,8 +48,8 @@ def fetch_days():
         if re.search(r"no contributions", text, re.IGNORECASE):
             count = 0
         else:
-            m = re.match(r"(\d+)", text)
-            count = int(m.group(1)) if m else 0
+            m = re.match(r"([\d,]+)", text)
+            count = int(m.group(1).replace(",", "")) if m else 0
         days.append({"date": date, "count": count})
 
     days.sort(key=lambda d: d["date"])
