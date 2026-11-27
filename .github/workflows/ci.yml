@@ -46,17 +46,24 @@ jobs:
           PY_FILES=$(find . -name '*.py' -not -path './.git/*' 2>/dev/null)
           if [ -z "$PY_FILES" ]; then
             echo "ℹ️ No Python files to check"
-          else
-            echo "$PY_FILES" | while read -r f; do
-              if python -m py_compile "$f"; then
-                echo "  ✅ $f"
-              else
-                echo "  ❌ $f failed"
-                exit 1
-              fi
-            done
-            echo "✅ All Python files pass syntax check"
+            exit 0
           fi
+          # NOTE: a `while` loop fed by a pipe runs in a subshell, so an `exit 1`
+          # inside it never reaches the step (the step always passed). Collect
+          # failures and fail after the loop instead.
+          failed=0
+          while IFS= read -r f; do
+            if python -m py_compile "$f"; then
+              echo "  ✅ $f"
+            else
+              echo "  ❌ $f failed"
+              failed=1
+            fi
+          done <<< "$PY_FILES"
+          if [ "$failed" -ne 0 ]; then
+            exit 1
+          fi
+          echo "✅ All Python files pass syntax check"
 
       - name: Check for hardcoded secrets patterns
         run: |
